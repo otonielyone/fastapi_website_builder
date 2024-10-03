@@ -128,6 +128,12 @@ async def resources(request: Request):
     templates = request.app.state.templates
     return templates.TemplateResponse("resources.html", {"request": request})
 
+@router.get("/dashboard", response_class=HTMLResponse, name="resources")
+async def dashboard(request: Request):
+    logger.info("Rendering dashboard page")
+    templates = request.app.state.templates
+    return templates.TemplateResponse("dashboard.html", {"request": request})
+
 @router.get("/contact", response_class=HTMLResponse, name="contact")
 async def contact(request: Request):
     logger.info("Rendering contact page")

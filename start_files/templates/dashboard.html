@@ -1,8 +1,6 @@
 {% extends "template.html" %}
 
 {% block head %}
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/static/css/main.css">
     <link rel="stylesheet" href="/static/css/analytics.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -11,161 +9,13 @@
     <title>Analytics Dashboard</title>
 {% endblock %}
 
+
+
+
 {% block body %}
     <div class="analytics-dashboard">
         <h1 class="dashboard-title">Website Monitoring Dashboard</h1>
 
-        <!-- Summary Cards -->
-        <div class="analytics-summary">
-            <div class="summary-card">
-                <i class="fas fa-users summary-icon"></i>
-                <div class="summary-details">
-                    <h3>Total Visits</h3>
-                    <p>{{ total_visits }}</p>
-                </div>
-            </div>
-            <div class="summary-card">
-                <i class="fas fa-clock summary-icon"></i>
-                <div class="summary-details">
-                    <h3>Average Session Duration</h3>
-                    <p>{{ avg_session_duration }} mins</p>
-                </div>
-            </div>
-            <div class="summary-card">
-                <i class="fas fa-desktop summary-icon"></i>
-                <div class="summary-details">
-                    <h3>Desktop Users</h3>
-                    <p>{{ desktop_users }}%</p>
-                </div>
-            </div>
-            <div class="summary-card">
-                <i class="fas fa-mobile-alt summary-icon"></i>
-                <div class="summary-details">
-                    <h3>Mobile Users</h3>
-                    <p>{{ mobile_users }}%</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Detailed Analytics Table -->
-        <div class="analytics-table-section">
-            <h2>Detailed Analytics</h2>
-            <table class="analytics-table">
-                <thead>
-                    <tr>
-                        <th>IP Address</th>
-                        <th>User Agent</th>
-                        <th>Device Type</th>
-                        <th>OS</th>
-                        <th>Browser</th>
-                        <th>Screen Resolution</th>
-                        <th>Time Zone</th>
-                        <th>Language</th>
-                        <th>Entry Page</th>
-                        <th>Exit Page</th>
-                        <th>Referrer</th>
-                        <th>Path</th>
-                        <th>Session Duration</th>
-                        <th>Page Views</th>
-                        <th>Click Events</th>
-                        <th>Bounce Rate</th>
-                        <th>Load Time</th>
-                        <th>Session Start</th>
-                        <th>Session End</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for entry in analytics_data %}
-                    <tr>
-                        <td>{{ entry.ip_address }}</td>
-                        <td>{{ entry.user_agent }}</td>
-                        <td>{{ entry.device_type if entry.device_type != 'unknown' else '0' }}</td>
-                        <td>{{ entry.os if entry.os != 'unknown' else '0' }}</td>
-                        <td>{{ entry.browser if entry.browser != 'unknown' else '0' }}</td>
-                        <td>{{ entry.screen_resolution if entry.screen_resolution != 'unknown' else '0' }}</td>
-                        <td>{{ entry.time_zone if entry.time_zone != 'unknown' else '0' }}</td>
-                        <td>{{ entry.language if entry.language != 'unknown' else '0' }}</td>
-                        <td>{{ entry.entry_page if entry.entry_page != 'unknown' else '0' }}</td>
-                        <td>{{ entry.exit_page if entry.exit_page != 'unknown' else '0' }}</td>
-                        <td>{{ entry.referrer if entry.referrer != 'unknown' else '0' }}</td>
-                        <td>{{ entry.path if entry.path != 'unknown' else '0' }}</td>
-                        <td>{{ entry.session_duration if entry.session_duration != 'unknown' else '0' }}</td>
-                        <td>{{ entry.page_views if entry.page_views != 'unknown' else '0' }}</td>
-                        <td>{{ entry.click_events if entry.click_events != 'unknown' else '0' }}</td>
-                        <td>{{ entry.bounce_rate if entry.bounce_rate != 'unknown' else '0' }}%</td>
-                        <td>{{ entry.load_time if entry.load_time != 'unknown' else '0' }}</td>
-                        <td>{{ entry.session_start if entry.session_start != 'unknown' else '0' }}</td>
-                        <td>{{ entry.session_end if entry.session_end != 'unknown' else '0' }}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
-    </div>
-
-    <!-- Map Section -->
-    <div class="map-section">
-        <h2>User Locations</h2>
-        <div id="map" style="width: 100%; height: 400px;"></div>
-    </div>
-
-    <script>
-        async function fetchAnalyticsData(timeframe) {
-            try {
-                const response = await fetch(`/add_analytics_to_html?timeframe=${timeframe}`);
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return await response.json();
-            } catch (error) {
-                console.error('Failed to fetch analytics data:', error);
-                return [];
-            }
-        }
-
-        async function geolocateIP(ipAddress) {
-        try {
-            const response = await fetch(`https://api.ipgeolocation.io/ipgeo?apiKey=b25e7ab2838940969d30c35144a7e30e&ip=${ipAddress}`);
-            if (!response.ok) {
-                throw new Error('Geolocation response was not ok');
-            }
-            const data = await response.json();
-            console.log(`Geolocation data for ${ipAddress}:`, data); // Log the data
-            return data;
-        } catch (error) {
-            console.error('Error fetching geolocation:', error);
-            return null;
-        }
-    }
-    
-    
-        async function initMap() {
-            const map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 2,
-                center: { lat: 0, lng: 0 },
-            });
-
-            // Fetch the analytics data
-            const analyticsData = await fetchAnalyticsData('last_30_days');
-
-            // Geolocate each user's IP address
-            for (const entry of analyticsData) {
-                if (entry.ip_address) {
-                    const geoData = await geolocateIP(entry.ip_address);
-                    if (geoData && geoData.latitude && geoData.longitude) {
-                        new google.maps.Marker({
-                            position: { lat: parseFloat(geoData.latitude), lng: parseFloat(geoData.longitude) },
-                            map: map,
-                            title: entry.ip_address,
-                        });
-                    }
-                }
-            }
-        }
-
-        window.onload = () => {
-            initMap(); // Initialize map when the page loads
-        };
-    </script>
+    <div class="placeholder"></div>
 
 {% endblock %}
