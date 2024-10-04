@@ -1,4 +1,123 @@
-[2024-10-04 10:19:29 -0400] [69498] [ERROR] Exception in ASGI application
+[2024-10-04 17:14:47 -0400] [439184] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439190] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439179] [INFO] Handling signal: term
+[2024-10-04 17:14:47 -0400] [439206] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439192] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439187] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439188] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439189] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439204] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439186] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439193] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439191] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439200] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439185] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439183] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439205] [INFO] Shutting down
+[2024-10-04 17:14:47 -0400] [439184] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439190] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439206] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439192] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439190] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439206] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439184] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439192] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439190] [INFO] Finished server process [439190]
+[2024-10-04 17:14:47 -0400] [439192] [INFO] Finished server process [439192]
+[2024-10-04 17:14:47 -0400] [439206] [INFO] Finished server process [439206]
+[2024-10-04 17:14:47 -0400] [439184] [INFO] Finished server process [439184]
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439192) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439184) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439190) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439206) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439187] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439187] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439187] [INFO] Finished server process [439187]
+[2024-10-04 17:14:47 -0400] [439188] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439188] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439188] [INFO] Finished server process [439188]
+[2024-10-04 17:14:47 -0400] [439189] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439189] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439189] [INFO] Finished server process [439189]
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439187) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439188) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439204] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439204] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439186] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439204] [INFO] Finished server process [439204]
+[2024-10-04 17:14:47 -0400] [439186] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439186] [INFO] Finished server process [439186]
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439189) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439204) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439186) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439193] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439193] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439193] [INFO] Finished server process [439193]
+[2024-10-04 17:14:47 -0400] [439191] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439200] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439191] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439191] [INFO] Finished server process [439191]
+[2024-10-04 17:14:47 -0400] [439200] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439200] [INFO] Finished server process [439200]
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439193) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439185] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439185] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439185] [INFO] Finished server process [439185]
+[2024-10-04 17:14:47 -0400] [439183] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439183] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439183] [INFO] Finished server process [439183]
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439200) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439191) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439205] [INFO] Waiting for application shutdown.
+[2024-10-04 17:14:47 -0400] [439205] [INFO] Application shutdown complete.
+[2024-10-04 17:14:47 -0400] [439205] [INFO] Finished server process [439205]
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439185) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439183) was sent SIGTERM!
+[2024-10-04 17:14:47 -0400] [439179] [ERROR] Worker (pid:439205) was sent SIGTERM!
+[2024-10-04 17:14:48 -0400] [439179] [INFO] Shutting down: Master
+[2024-10-04 17:14:48 -0400] [439856] [INFO] Starting gunicorn 23.0.0
+[2024-10-04 17:14:48 -0400] [439856] [INFO] Listening at: http://192.168.0.200:5000 (439856)
+[2024-10-04 17:14:48 -0400] [439856] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-10-04 17:14:48 -0400] [439858] [INFO] Booting worker with pid: 439858
+[2024-10-04 17:14:48 -0400] [439859] [INFO] Booting worker with pid: 439859
+[2024-10-04 17:14:48 -0400] [439860] [INFO] Booting worker with pid: 439860
+[2024-10-04 17:14:48 -0400] [439861] [INFO] Booting worker with pid: 439861
+[2024-10-04 17:14:48 -0400] [439862] [INFO] Booting worker with pid: 439862
+[2024-10-04 17:14:48 -0400] [439863] [INFO] Booting worker with pid: 439863
+[2024-10-04 17:14:48 -0400] [439864] [INFO] Booting worker with pid: 439864
+[2024-10-04 17:14:48 -0400] [439865] [INFO] Booting worker with pid: 439865
+[2024-10-04 17:14:48 -0400] [439866] [INFO] Booting worker with pid: 439866
+[2024-10-04 17:14:48 -0400] [439867] [INFO] Booting worker with pid: 439867
+[2024-10-04 17:14:48 -0400] [439868] [INFO] Booting worker with pid: 439868
+[2024-10-04 17:14:48 -0400] [439869] [INFO] Booting worker with pid: 439869
+[2024-10-04 17:14:48 -0400] [439879] [INFO] Booting worker with pid: 439879
+[2024-10-04 17:14:48 -0400] [439880] [INFO] Booting worker with pid: 439880
+[2024-10-04 17:14:48 -0400] [439881] [INFO] Booting worker with pid: 439881
+[2024-10-04 17:14:52 -0400] [439860] [INFO] Started server process [439860]
+[2024-10-04 17:14:52 -0400] [439860] [INFO] Waiting for application startup.
+[2024-10-04 17:14:52 -0400] [439860] [INFO] Application startup complete.
+[2024-10-04 17:14:52 -0400] [439859] [INFO] Started server process [439859]
+[2024-10-04 17:14:52 -0400] [439859] [INFO] Waiting for application startup.
+[2024-10-04 17:14:52 -0400] [439859] [INFO] Application startup complete.
+[2024-10-04 17:14:52 -0400] [439858] [INFO] Started server process [439858]
+[2024-10-04 17:14:52 -0400] [439858] [INFO] Waiting for application startup.
+[2024-10-04 17:14:52 -0400] [439858] [INFO] Application startup complete.
+[2024-10-04 17:14:52 -0400] [439861] [INFO] Started server process [439861]
+[2024-10-04 17:14:52 -0400] [439861] [INFO] Waiting for application startup.
+[2024-10-04 17:14:52 -0400] [439861] [INFO] Application startup complete.
+[2024-10-04 17:14:52 -0400] [439866] [INFO] Started server process [439866]
+[2024-10-04 17:14:52 -0400] [439866] [INFO] Waiting for application startup.
+[2024-10-04 17:14:52 -0400] [439866] [INFO] Application startup complete.
+[2024-10-04 17:14:53 -0400] [439865] [INFO] Started server process [439865]
+[2024-10-04 17:14:53 -0400] [439865] [INFO] Waiting for application startup.
+[2024-10-04 17:14:53 -0400] [439865] [INFO] Application startup complete.
+[2024-10-04 17:14:53 -0400] [439864] [INFO] Started server process [439864]
+[2024-10-04 17:14:53 -0400] [439864] [INFO] Waiting for application startup.
+[2024-10-04 17:14:53 -0400] [439864] [INFO] Application startup complete.
+[2024-10-04 17:14:53 -0400] [439880] [INFO] Started server process [439880]
+[2024-10-04 17:14:53 -0400] [439880] [INFO] Waiting for application startup.
+[2024-10-04 17:14:53 -0400] [439880] [INFO] Application startup complete.
+[2024-10-04 17:14:53 -0400] [439860] [ERROR] Exception in ASGI application
 Traceback (most recent call last):
   File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 406, in run_asgi
     result = await app(  # type: ignore[func-returns-value]
@@ -41,1070 +160,865 @@ Traceback (most recent call last):
   File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/fastapi/routing.py", line 210, in run_endpoint_function
     return await dependant.call(**values)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/start_files/routes/routes.py", line 77, in dashboard
-    return templates.TemplateResponse("dashboard.html", {
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/templating.py", line 225, in TemplateResponse
-    return _TemplateResponse(
-           ^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/templating.py", line 40, in __init__
-    content = template.render(context)
-              ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
-    self.environment.handle_exception()
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File "start_files/templates/dashboard.html", line 1, in top-level template code
-    {% extends "template.html" %}
-    ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "start_files/templates/template.html", line 78, in top-level template code
-    {% block body %}{% endblock %}
-    ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "start_files/templates/dashboard.html", line 62, in block 'body'
-    {% if real_time_users[0].page_title == "No data" %}
-    ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
-    return getattr(obj, attribute)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-jinja2.exceptions.UndefinedError: list object has no element 0
-[2024-10-04 10:20:46 -0400] [69487] [INFO] Handling signal: term
-[2024-10-04 10:20:46 -0400] [69498] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69517] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69496] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69492] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69497] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69499] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69490] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69494] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69491] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69518] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69495] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69510] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69489] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69493] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69519] [INFO] Shutting down
-[2024-10-04 10:20:46 -0400] [69517] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69498] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69517] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69498] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69517] [INFO] Finished server process [69517]
-[2024-10-04 10:20:46 -0400] [69498] [INFO] Finished server process [69498]
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69517) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69496] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69496] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69496] [INFO] Finished server process [69496]
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69498) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69492] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69492] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69492] [INFO] Finished server process [69492]
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69496) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69497] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69497] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69497] [INFO] Finished server process [69497]
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69492) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69499] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69499] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69499] [INFO] Finished server process [69499]
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69497) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69490] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69499) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69490] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69490] [INFO] Finished server process [69490]
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69490) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69494] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69494] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69494] [INFO] Finished server process [69494]
-[2024-10-04 10:20:46 -0400] [69491] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69491] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69491] [INFO] Finished server process [69491]
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69494) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69491) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69518] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69495] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69518] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69495] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69518] [INFO] Finished server process [69518]
-[2024-10-04 10:20:46 -0400] [69495] [INFO] Finished server process [69495]
-[2024-10-04 10:20:46 -0400] [69510] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69510] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69510] [INFO] Finished server process [69510]
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69495) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69518) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69510) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69489] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69489] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69489] [INFO] Finished server process [69489]
-[2024-10-04 10:20:46 -0400] [69493] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69493] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69493] [INFO] Finished server process [69493]
-[2024-10-04 10:20:46 -0400] [69519] [INFO] Waiting for application shutdown.
-[2024-10-04 10:20:46 -0400] [69519] [INFO] Application shutdown complete.
-[2024-10-04 10:20:46 -0400] [69519] [INFO] Finished server process [69519]
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69489) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69493) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69487] [ERROR] Worker (pid:69519) was sent SIGTERM!
-[2024-10-04 10:20:46 -0400] [69487] [INFO] Shutting down: Master
-[2024-10-04 10:20:46 -0400] [69979] [INFO] Starting gunicorn 23.0.0
-[2024-10-04 10:20:46 -0400] [69979] [INFO] Listening at: http://192.168.0.200:5000 (69979)
-[2024-10-04 10:20:46 -0400] [69979] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2024-10-04 10:20:46 -0400] [69981] [INFO] Booting worker with pid: 69981
-[2024-10-04 10:20:46 -0400] [69982] [INFO] Booting worker with pid: 69982
-[2024-10-04 10:20:46 -0400] [69983] [INFO] Booting worker with pid: 69983
-[2024-10-04 10:20:47 -0400] [69984] [INFO] Booting worker with pid: 69984
-[2024-10-04 10:20:47 -0400] [69985] [INFO] Booting worker with pid: 69985
-[2024-10-04 10:20:47 -0400] [69986] [INFO] Booting worker with pid: 69986
-[2024-10-04 10:20:47 -0400] [69987] [INFO] Booting worker with pid: 69987
-[2024-10-04 10:20:47 -0400] [69988] [INFO] Booting worker with pid: 69988
-[2024-10-04 10:20:47 -0400] [69989] [INFO] Booting worker with pid: 69989
-[2024-10-04 10:20:47 -0400] [69990] [INFO] Booting worker with pid: 69990
-[2024-10-04 10:20:47 -0400] [69991] [INFO] Booting worker with pid: 69991
-[2024-10-04 10:20:47 -0400] [70008] [INFO] Booting worker with pid: 70008
-[2024-10-04 10:20:47 -0400] [70009] [INFO] Booting worker with pid: 70009
-[2024-10-04 10:20:47 -0400] [70010] [INFO] Booting worker with pid: 70010
-[2024-10-04 10:20:47 -0400] [70011] [INFO] Booting worker with pid: 70011
-[2024-10-04 10:20:51 -0400] [69981] [INFO] Started server process [69981]
-[2024-10-04 10:20:51 -0400] [69981] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [69981] [INFO] Application startup complete.
-[2024-10-04 10:20:51 -0400] [69982] [INFO] Started server process [69982]
-[2024-10-04 10:20:51 -0400] [69982] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [69982] [INFO] Application startup complete.
-[2024-10-04 10:20:51 -0400] [69983] [INFO] Started server process [69983]
-[2024-10-04 10:20:51 -0400] [69983] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [69983] [INFO] Application startup complete.
-[2024-10-04 10:20:51 -0400] [69984] [INFO] Started server process [69984]
-[2024-10-04 10:20:51 -0400] [69984] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [69984] [INFO] Application startup complete.
-[2024-10-04 10:20:51 -0400] [69986] [INFO] Started server process [69986]
-[2024-10-04 10:20:51 -0400] [69986] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [69986] [INFO] Application startup complete.
-[2024-10-04 10:20:51 -0400] [69989] [INFO] Started server process [69989]
-[2024-10-04 10:20:51 -0400] [69989] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [69989] [INFO] Application startup complete.
-[2024-10-04 10:20:51 -0400] [69987] [INFO] Started server process [69987]
-[2024-10-04 10:20:51 -0400] [69987] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [69987] [INFO] Application startup complete.
-[2024-10-04 10:20:51 -0400] [69981] [ERROR] Exception in ASGI application
-Traceback (most recent call last):
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/uvicorn/protocols/http/h11_impl.py", line 406, in run_asgi
-    result = await app(  # type: ignore[func-returns-value]
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 70, in __call__
-    return await self.app(scope, receive, send)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/fastapi/applications.py", line 1054, in __call__
-    await super().__call__(scope, receive, send)
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/applications.py", line 123, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 186, in __call__
-    raise exc
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/middleware/errors.py", line 164, in __call__
-    await self.app(scope, receive, _send)
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 65, in __call__
-    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
-    raise exc
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    await app(scope, receive, sender)
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/routing.py", line 754, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/routing.py", line 774, in app
-    await route.handle(scope, receive, send)
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/routing.py", line 295, in handle
-    await self.app(scope, receive, send)
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/routing.py", line 77, in app
-    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
-    raise exc
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    await app(scope, receive, sender)
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/routing.py", line 74, in app
-    response = await f(request)
-               ^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/fastapi/routing.py", line 297, in app
-    raw_response = await run_endpoint_function(
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/fastapi/routing.py", line 210, in run_endpoint_function
-    return await dependant.call(**values)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/start_files/routes/routes.py", line 77, in dashboard
-    return templates.TemplateResponse("dashboard.html", {
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/templating.py", line 225, in TemplateResponse
-    return _TemplateResponse(
-           ^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/starlette/templating.py", line 40, in __init__
-    content = template.render(context)
-              ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/jinja2/environment.py", line 1304, in render
-    self.environment.handle_exception()
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/jinja2/environment.py", line 939, in handle_exception
-    raise rewrite_traceback_stack(source=source)
-  File "start_files/templates/dashboard.html", line 1, in top-level template code
-    {% extends "template.html" %}
-    ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "start_files/templates/template.html", line 78, in top-level template code
-    {% block body %}{% endblock %}
-    ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "start_files/templates/dashboard.html", line 62, in block 'body'
-    {% if real_time_users[0].page_title == "No data" %}
-    ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/var/www/html/fastapi_project/venv/lib/python3.12/site-packages/jinja2/environment.py", line 487, in getattr
-    return getattr(obj, attribute)
-           ^^^^^^^^^^^^^^^^^^^^^^^
-jinja2.exceptions.UndefinedError: list object has no element 0
-[2024-10-04 10:20:51 -0400] [69988] [INFO] Started server process [69988]
-[2024-10-04 10:20:51 -0400] [69988] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [69988] [INFO] Application startup complete.
-[2024-10-04 10:20:51 -0400] [69985] [INFO] Started server process [69985]
-[2024-10-04 10:20:51 -0400] [69985] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [69985] [INFO] Application startup complete.
-[2024-10-04 10:20:51 -0400] [70008] [INFO] Started server process [70008]
-[2024-10-04 10:20:51 -0400] [70008] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [70008] [INFO] Application startup complete.
-[2024-10-04 10:20:51 -0400] [69990] [INFO] Started server process [69990]
-[2024-10-04 10:20:51 -0400] [69990] [INFO] Waiting for application startup.
-[2024-10-04 10:20:51 -0400] [69990] [INFO] Application startup complete.
-[2024-10-04 10:20:52 -0400] [69991] [INFO] Started server process [69991]
-[2024-10-04 10:20:52 -0400] [69991] [INFO] Waiting for application startup.
-[2024-10-04 10:20:52 -0400] [69991] [INFO] Application startup complete.
-[2024-10-04 10:20:52 -0400] [70011] [INFO] Started server process [70011]
-[2024-10-04 10:20:52 -0400] [70011] [INFO] Waiting for application startup.
-[2024-10-04 10:20:52 -0400] [70011] [INFO] Application startup complete.
-[2024-10-04 10:20:52 -0400] [70010] [INFO] Started server process [70010]
-[2024-10-04 10:20:52 -0400] [70010] [INFO] Waiting for application startup.
-[2024-10-04 10:20:52 -0400] [70010] [INFO] Application startup complete.
-[2024-10-04 10:20:52 -0400] [70009] [INFO] Started server process [70009]
-[2024-10-04 10:20:52 -0400] [70009] [INFO] Waiting for application startup.
-[2024-10-04 10:20:52 -0400] [70009] [INFO] Application startup complete.
-[2024-10-04 10:22:08 -0400] [69979] [INFO] Handling signal: term
-[2024-10-04 10:22:08 -0400] [69986] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69990] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [70009] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [70010] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69981] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69991] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69982] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69989] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69984] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69988] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69983] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69985] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [70008] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [70011] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69987] [INFO] Shutting down
-[2024-10-04 10:22:08 -0400] [69986] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69986] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [69986] [INFO] Finished server process [69986]
-[2024-10-04 10:22:08 -0400] [69990] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69990] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [69990] [INFO] Finished server process [69990]
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69986) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69990) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [70009] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [70010] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [70009] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [70010] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [70009] [INFO] Finished server process [70009]
-[2024-10-04 10:22:08 -0400] [70010] [INFO] Finished server process [70010]
-[2024-10-04 10:22:08 -0400] [69981] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69981] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [69981] [INFO] Finished server process [69981]
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:70009) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:70010) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69991] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69991] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [69991] [INFO] Finished server process [69991]
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69981) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69982] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69989] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69982] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [69982] [INFO] Finished server process [69982]
-[2024-10-04 10:22:08 -0400] [69989] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [69989] [INFO] Finished server process [69989]
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69991) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69982) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69989) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69984] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69984] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [69984] [INFO] Finished server process [69984]
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69984) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69988] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69988] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [69988] [INFO] Finished server process [69988]
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69988) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69983] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69985] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [70008] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [70011] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69987] [INFO] Waiting for application shutdown.
-[2024-10-04 10:22:08 -0400] [69983] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [69985] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [70011] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [70008] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [69985] [INFO] Finished server process [69985]
-[2024-10-04 10:22:08 -0400] [69983] [INFO] Finished server process [69983]
-[2024-10-04 10:22:08 -0400] [69987] [INFO] Application shutdown complete.
-[2024-10-04 10:22:08 -0400] [70011] [INFO] Finished server process [70011]
-[2024-10-04 10:22:08 -0400] [70008] [INFO] Finished server process [70008]
-[2024-10-04 10:22:08 -0400] [69987] [INFO] Finished server process [69987]
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69987) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69983) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:70008) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69979] [ERROR] Worker (pid:69985) was sent SIGTERM!
-[2024-10-04 10:22:08 -0400] [69979] [INFO] Shutting down: Master
-[2024-10-04 10:22:08 -0400] [70460] [INFO] Starting gunicorn 23.0.0
-[2024-10-04 10:22:08 -0400] [70460] [INFO] Listening at: http://192.168.0.200:5000 (70460)
-[2024-10-04 10:22:08 -0400] [70460] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2024-10-04 10:22:08 -0400] [70463] [INFO] Booting worker with pid: 70463
-[2024-10-04 10:22:08 -0400] [70464] [INFO] Booting worker with pid: 70464
-[2024-10-04 10:22:09 -0400] [70465] [INFO] Booting worker with pid: 70465
-[2024-10-04 10:22:09 -0400] [70466] [INFO] Booting worker with pid: 70466
-[2024-10-04 10:22:09 -0400] [70467] [INFO] Booting worker with pid: 70467
-[2024-10-04 10:22:09 -0400] [70468] [INFO] Booting worker with pid: 70468
-[2024-10-04 10:22:09 -0400] [70469] [INFO] Booting worker with pid: 70469
-[2024-10-04 10:22:09 -0400] [70470] [INFO] Booting worker with pid: 70470
-[2024-10-04 10:22:09 -0400] [70471] [INFO] Booting worker with pid: 70471
-[2024-10-04 10:22:09 -0400] [70472] [INFO] Booting worker with pid: 70472
-[2024-10-04 10:22:09 -0400] [70476] [INFO] Booting worker with pid: 70476
-[2024-10-04 10:22:09 -0400] [70483] [INFO] Booting worker with pid: 70483
-[2024-10-04 10:22:09 -0400] [70490] [INFO] Booting worker with pid: 70490
-[2024-10-04 10:22:09 -0400] [70492] [INFO] Booting worker with pid: 70492
-[2024-10-04 10:22:09 -0400] [70493] [INFO] Booting worker with pid: 70493
-[2024-10-04 10:22:13 -0400] [70463] [INFO] Started server process [70463]
-[2024-10-04 10:22:13 -0400] [70463] [INFO] Waiting for application startup.
-[2024-10-04 10:22:13 -0400] [70463] [INFO] Application startup complete.
-[2024-10-04 10:22:13 -0400] [70464] [INFO] Started server process [70464]
-[2024-10-04 10:22:13 -0400] [70464] [INFO] Waiting for application startup.
-[2024-10-04 10:22:13 -0400] [70464] [INFO] Application startup complete.
-[2024-10-04 10:22:13 -0400] [70466] [INFO] Started server process [70466]
-[2024-10-04 10:22:13 -0400] [70466] [INFO] Waiting for application startup.
-[2024-10-04 10:22:13 -0400] [70466] [INFO] Application startup complete.
-[2024-10-04 10:22:13 -0400] [70465] [INFO] Started server process [70465]
-[2024-10-04 10:22:13 -0400] [70465] [INFO] Waiting for application startup.
-[2024-10-04 10:22:13 -0400] [70465] [INFO] Application startup complete.
-[2024-10-04 10:22:13 -0400] [70468] [INFO] Started server process [70468]
-[2024-10-04 10:22:13 -0400] [70468] [INFO] Waiting for application startup.
-[2024-10-04 10:22:13 -0400] [70468] [INFO] Application startup complete.
-[2024-10-04 10:22:13 -0400] [70467] [INFO] Started server process [70467]
-[2024-10-04 10:22:13 -0400] [70467] [INFO] Waiting for application startup.
-[2024-10-04 10:22:13 -0400] [70467] [INFO] Application startup complete.
-[2024-10-04 10:22:13 -0400] [70469] [INFO] Started server process [70469]
-[2024-10-04 10:22:13 -0400] [70469] [INFO] Waiting for application startup.
-[2024-10-04 10:22:13 -0400] [70469] [INFO] Application startup complete.
-[2024-10-04 10:22:13 -0400] [70476] [INFO] Started server process [70476]
-[2024-10-04 10:22:13 -0400] [70476] [INFO] Waiting for application startup.
-[2024-10-04 10:22:13 -0400] [70476] [INFO] Application startup complete.
-[2024-10-04 10:22:13 -0400] [70470] [INFO] Started server process [70470]
-[2024-10-04 10:22:13 -0400] [70470] [INFO] Waiting for application startup.
-[2024-10-04 10:22:13 -0400] [70470] [INFO] Application startup complete.
-[2024-10-04 10:22:14 -0400] [70492] [INFO] Started server process [70492]
-[2024-10-04 10:22:14 -0400] [70492] [INFO] Waiting for application startup.
-[2024-10-04 10:22:14 -0400] [70492] [INFO] Application startup complete.
-[2024-10-04 10:22:14 -0400] [70471] [INFO] Started server process [70471]
-[2024-10-04 10:22:14 -0400] [70471] [INFO] Waiting for application startup.
-[2024-10-04 10:22:14 -0400] [70471] [INFO] Application startup complete.
-[2024-10-04 10:22:14 -0400] [70472] [INFO] Started server process [70472]
-[2024-10-04 10:22:14 -0400] [70472] [INFO] Waiting for application startup.
-[2024-10-04 10:22:14 -0400] [70472] [INFO] Application startup complete.
-[2024-10-04 10:22:14 -0400] [70483] [INFO] Started server process [70483]
-[2024-10-04 10:22:14 -0400] [70483] [INFO] Waiting for application startup.
-[2024-10-04 10:22:14 -0400] [70483] [INFO] Application startup complete.
-[2024-10-04 10:22:14 -0400] [70490] [INFO] Started server process [70490]
-[2024-10-04 10:22:14 -0400] [70490] [INFO] Waiting for application startup.
-[2024-10-04 10:22:14 -0400] [70490] [INFO] Application startup complete.
-[2024-10-04 10:22:14 -0400] [70493] [INFO] Started server process [70493]
-[2024-10-04 10:22:14 -0400] [70493] [INFO] Waiting for application startup.
-[2024-10-04 10:22:14 -0400] [70493] [INFO] Application startup complete.
-[2024-10-04 10:24:24 -0400] [70460] [INFO] Handling signal: term
-[2024-10-04 10:24:24 -0400] [70463] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70492] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70466] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70467] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70465] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70469] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70470] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70468] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70472] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70471] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70483] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70464] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70493] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70490] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70476] [INFO] Shutting down
-[2024-10-04 10:24:24 -0400] [70492] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70463] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70463] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70492] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70463] [INFO] Finished server process [70463]
-[2024-10-04 10:24:24 -0400] [70492] [INFO] Finished server process [70492]
-[2024-10-04 10:24:24 -0400] [70466] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70466] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70466] [INFO] Finished server process [70466]
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70492) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70466) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70467] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70463) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70467] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70467] [INFO] Finished server process [70467]
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70467) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70465] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70465] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70465] [INFO] Finished server process [70465]
-[2024-10-04 10:24:24 -0400] [70470] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70469] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70470] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70469] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70470] [INFO] Finished server process [70470]
-[2024-10-04 10:24:24 -0400] [70469] [INFO] Finished server process [70469]
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70465) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70468] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70468] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70468] [INFO] Finished server process [70468]
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70470) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70472] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70472] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70472] [INFO] Finished server process [70472]
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70469) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70468) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70472) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70471] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70471] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70471] [INFO] Finished server process [70471]
-[2024-10-04 10:24:24 -0400] [70483] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70493] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70464] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70490] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70493] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70483] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70464] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70493] [INFO] Finished server process [70493]
-[2024-10-04 10:24:24 -0400] [70483] [INFO] Finished server process [70483]
-[2024-10-04 10:24:24 -0400] [70490] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70464] [INFO] Finished server process [70464]
-[2024-10-04 10:24:24 -0400] [70490] [INFO] Finished server process [70490]
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70471) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70490) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70493) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70483) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70464) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70476] [INFO] Waiting for application shutdown.
-[2024-10-04 10:24:24 -0400] [70476] [INFO] Application shutdown complete.
-[2024-10-04 10:24:24 -0400] [70476] [INFO] Finished server process [70476]
-[2024-10-04 10:24:24 -0400] [70460] [ERROR] Worker (pid:70476) was sent SIGTERM!
-[2024-10-04 10:24:24 -0400] [70460] [INFO] Shutting down: Master
-[2024-10-04 10:24:24 -0400] [70942] [INFO] Starting gunicorn 23.0.0
-[2024-10-04 10:24:24 -0400] [70942] [INFO] Listening at: http://192.168.0.200:5000 (70942)
-[2024-10-04 10:24:24 -0400] [70942] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2024-10-04 10:24:24 -0400] [70946] [INFO] Booting worker with pid: 70946
-[2024-10-04 10:24:24 -0400] [70947] [INFO] Booting worker with pid: 70947
-[2024-10-04 10:24:24 -0400] [70948] [INFO] Booting worker with pid: 70948
-[2024-10-04 10:24:25 -0400] [70949] [INFO] Booting worker with pid: 70949
-[2024-10-04 10:24:25 -0400] [70950] [INFO] Booting worker with pid: 70950
-[2024-10-04 10:24:25 -0400] [70951] [INFO] Booting worker with pid: 70951
-[2024-10-04 10:24:25 -0400] [70952] [INFO] Booting worker with pid: 70952
-[2024-10-04 10:24:25 -0400] [70953] [INFO] Booting worker with pid: 70953
-[2024-10-04 10:24:25 -0400] [70956] [INFO] Booting worker with pid: 70956
-[2024-10-04 10:24:25 -0400] [70968] [INFO] Booting worker with pid: 70968
-[2024-10-04 10:24:25 -0400] [70972] [INFO] Booting worker with pid: 70972
-[2024-10-04 10:24:25 -0400] [70973] [INFO] Booting worker with pid: 70973
-[2024-10-04 10:24:25 -0400] [70974] [INFO] Booting worker with pid: 70974
-[2024-10-04 10:24:25 -0400] [70975] [INFO] Booting worker with pid: 70975
-[2024-10-04 10:24:25 -0400] [70976] [INFO] Booting worker with pid: 70976
-[2024-10-04 10:24:29 -0400] [70947] [INFO] Started server process [70947]
-[2024-10-04 10:24:29 -0400] [70947] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70947] [INFO] Application startup complete.
-[2024-10-04 10:24:29 -0400] [70946] [INFO] Started server process [70946]
-[2024-10-04 10:24:29 -0400] [70946] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70946] [INFO] Application startup complete.
-[2024-10-04 10:24:29 -0400] [70949] [INFO] Started server process [70949]
-[2024-10-04 10:24:29 -0400] [70949] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70949] [INFO] Application startup complete.
-[2024-10-04 10:24:29 -0400] [70948] [INFO] Started server process [70948]
-[2024-10-04 10:24:29 -0400] [70948] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70948] [INFO] Application startup complete.
-[2024-10-04 10:24:29 -0400] [70950] [INFO] Started server process [70950]
-[2024-10-04 10:24:29 -0400] [70950] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70950] [INFO] Application startup complete.
-[2024-10-04 10:24:29 -0400] [70953] [INFO] Started server process [70953]
-[2024-10-04 10:24:29 -0400] [70953] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70953] [INFO] Application startup complete.
-[2024-10-04 10:24:29 -0400] [70952] [INFO] Started server process [70952]
-[2024-10-04 10:24:29 -0400] [70952] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70952] [INFO] Application startup complete.
-[2024-10-04 10:24:29 -0400] [70951] [INFO] Started server process [70951]
-[2024-10-04 10:24:29 -0400] [70951] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70951] [INFO] Application startup complete.
-[2024-10-04 10:24:29 -0400] [70968] [INFO] Started server process [70968]
-[2024-10-04 10:24:29 -0400] [70968] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70968] [INFO] Application startup complete.
-[2024-10-04 10:24:29 -0400] [70956] [INFO] Started server process [70956]
-[2024-10-04 10:24:29 -0400] [70956] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70956] [INFO] Application startup complete.
-[2024-10-04 10:24:29 -0400] [70972] [INFO] Started server process [70972]
-[2024-10-04 10:24:29 -0400] [70972] [INFO] Waiting for application startup.
-[2024-10-04 10:24:29 -0400] [70972] [INFO] Application startup complete.
-[2024-10-04 10:24:30 -0400] [70974] [INFO] Started server process [70974]
-[2024-10-04 10:24:30 -0400] [70974] [INFO] Waiting for application startup.
-[2024-10-04 10:24:30 -0400] [70974] [INFO] Application startup complete.
-[2024-10-04 10:24:30 -0400] [70973] [INFO] Started server process [70973]
-[2024-10-04 10:24:30 -0400] [70973] [INFO] Waiting for application startup.
-[2024-10-04 10:24:30 -0400] [70973] [INFO] Application startup complete.
-[2024-10-04 10:24:30 -0400] [70975] [INFO] Started server process [70975]
-[2024-10-04 10:24:30 -0400] [70975] [INFO] Waiting for application startup.
-[2024-10-04 10:24:30 -0400] [70975] [INFO] Application startup complete.
-[2024-10-04 10:24:30 -0400] [70976] [INFO] Started server process [70976]
-[2024-10-04 10:24:30 -0400] [70976] [INFO] Waiting for application startup.
-[2024-10-04 10:24:30 -0400] [70976] [INFO] Application startup complete.
-[2024-10-04 10:25:04 -0400] [70942] [INFO] Handling signal: term
-[2024-10-04 10:25:04 -0400] [70974] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70950] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70952] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70949] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70947] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70956] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70953] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70975] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70976] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70973] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70951] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70972] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70948] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70946] [INFO] Shutting down
-[2024-10-04 10:25:04 -0400] [70968] [INFO] Shutting down
-[2024-10-04 10:25:05 -0400] [70974] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70974] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70974] [INFO] Finished server process [70974]
-[2024-10-04 10:25:05 -0400] [70950] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70950] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70950] [INFO] Finished server process [70950]
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70974) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70950) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70952] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70952] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70952] [INFO] Finished server process [70952]
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70952) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70949] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70949] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70949] [INFO] Finished server process [70949]
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70949) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70947] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70947] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70947] [INFO] Finished server process [70947]
-[2024-10-04 10:25:05 -0400] [70956] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70956] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70956] [INFO] Finished server process [70956]
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70947) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70953] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70953] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70953] [INFO] Finished server process [70953]
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70956) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70975] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70975] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70975] [INFO] Finished server process [70975]
-[2024-10-04 10:25:05 -0400] [70973] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70976] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70976] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70973] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70976] [INFO] Finished server process [70976]
-[2024-10-04 10:25:05 -0400] [70973] [INFO] Finished server process [70973]
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70953) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70951] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70951] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70951] [INFO] Finished server process [70951]
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70975) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70973) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70972] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70972] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70972] [INFO] Finished server process [70972]
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70951) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70948] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70948] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70948] [INFO] Finished server process [70948]
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70972) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70948) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70946] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70946] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70968] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:05 -0400] [70946] [INFO] Finished server process [70946]
-[2024-10-04 10:25:05 -0400] [70968] [INFO] Application shutdown complete.
-[2024-10-04 10:25:05 -0400] [70968] [INFO] Finished server process [70968]
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70946) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70942] [ERROR] Worker (pid:70968) was sent SIGTERM!
-[2024-10-04 10:25:05 -0400] [70942] [INFO] Shutting down: Master
-[2024-10-04 10:25:05 -0400] [71429] [INFO] Starting gunicorn 23.0.0
-[2024-10-04 10:25:05 -0400] [71429] [INFO] Listening at: http://192.168.0.200:5000 (71429)
-[2024-10-04 10:25:05 -0400] [71429] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2024-10-04 10:25:05 -0400] [71433] [INFO] Booting worker with pid: 71433
-[2024-10-04 10:25:05 -0400] [71434] [INFO] Booting worker with pid: 71434
-[2024-10-04 10:25:05 -0400] [71435] [INFO] Booting worker with pid: 71435
-[2024-10-04 10:25:05 -0400] [71436] [INFO] Booting worker with pid: 71436
-[2024-10-04 10:25:05 -0400] [71437] [INFO] Booting worker with pid: 71437
-[2024-10-04 10:25:05 -0400] [71438] [INFO] Booting worker with pid: 71438
-[2024-10-04 10:25:05 -0400] [71439] [INFO] Booting worker with pid: 71439
-[2024-10-04 10:25:05 -0400] [71440] [INFO] Booting worker with pid: 71440
-[2024-10-04 10:25:05 -0400] [71441] [INFO] Booting worker with pid: 71441
-[2024-10-04 10:25:05 -0400] [71442] [INFO] Booting worker with pid: 71442
-[2024-10-04 10:25:05 -0400] [71447] [INFO] Booting worker with pid: 71447
-[2024-10-04 10:25:05 -0400] [71459] [INFO] Booting worker with pid: 71459
-[2024-10-04 10:25:06 -0400] [71461] [INFO] Booting worker with pid: 71461
-[2024-10-04 10:25:06 -0400] [71462] [INFO] Booting worker with pid: 71462
-[2024-10-04 10:25:06 -0400] [71463] [INFO] Booting worker with pid: 71463
-[2024-10-04 10:25:09 -0400] [71436] [INFO] Started server process [71436]
-[2024-10-04 10:25:09 -0400] [71436] [INFO] Waiting for application startup.
-[2024-10-04 10:25:09 -0400] [71436] [INFO] Application startup complete.
-[2024-10-04 10:25:09 -0400] [71433] [INFO] Started server process [71433]
-[2024-10-04 10:25:09 -0400] [71433] [INFO] Waiting for application startup.
-[2024-10-04 10:25:09 -0400] [71433] [INFO] Application startup complete.
-[2024-10-04 10:25:09 -0400] [71434] [INFO] Started server process [71434]
-[2024-10-04 10:25:09 -0400] [71434] [INFO] Waiting for application startup.
-[2024-10-04 10:25:09 -0400] [71434] [INFO] Application startup complete.
-[2024-10-04 10:25:09 -0400] [71435] [INFO] Started server process [71435]
-[2024-10-04 10:25:09 -0400] [71435] [INFO] Waiting for application startup.
-[2024-10-04 10:25:09 -0400] [71435] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71440] [INFO] Started server process [71440]
-[2024-10-04 10:25:10 -0400] [71440] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71440] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71438] [INFO] Started server process [71438]
-[2024-10-04 10:25:10 -0400] [71438] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71438] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71437] [INFO] Started server process [71437]
-[2024-10-04 10:25:10 -0400] [71437] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71437] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71462] [INFO] Started server process [71462]
-[2024-10-04 10:25:10 -0400] [71462] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71462] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71442] [INFO] Started server process [71442]
-[2024-10-04 10:25:10 -0400] [71442] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71442] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71461] [INFO] Started server process [71461]
-[2024-10-04 10:25:10 -0400] [71461] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71461] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71439] [INFO] Started server process [71439]
-[2024-10-04 10:25:10 -0400] [71439] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71439] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71447] [INFO] Started server process [71447]
-[2024-10-04 10:25:10 -0400] [71447] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71447] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71441] [INFO] Started server process [71441]
-[2024-10-04 10:25:10 -0400] [71441] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71441] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71459] [INFO] Started server process [71459]
-[2024-10-04 10:25:10 -0400] [71459] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71459] [INFO] Application startup complete.
-[2024-10-04 10:25:10 -0400] [71463] [INFO] Started server process [71463]
-[2024-10-04 10:25:10 -0400] [71463] [INFO] Waiting for application startup.
-[2024-10-04 10:25:10 -0400] [71463] [INFO] Application startup complete.
-[2024-10-04 10:25:50 -0400] [71436] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71429] [INFO] Handling signal: term
-[2024-10-04 10:25:50 -0400] [71447] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71441] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71433] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71459] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71442] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71435] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71438] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71434] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71437] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71463] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71462] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71440] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71461] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71439] [INFO] Shutting down
-[2024-10-04 10:25:50 -0400] [71436] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71436] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71436] [INFO] Finished server process [71436]
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71436) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71447] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71447] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71447] [INFO] Finished server process [71447]
-[2024-10-04 10:25:50 -0400] [71441] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71441] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71441] [INFO] Finished server process [71441]
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71447) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71441) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71433] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71433] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71433] [INFO] Finished server process [71433]
-[2024-10-04 10:25:50 -0400] [71459] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71459] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71459] [INFO] Finished server process [71459]
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71433) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71459) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71442] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71442] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71442] [INFO] Finished server process [71442]
-[2024-10-04 10:25:50 -0400] [71435] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71438] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71435] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71438] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71435] [INFO] Finished server process [71435]
-[2024-10-04 10:25:50 -0400] [71438] [INFO] Finished server process [71438]
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71442) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71438) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71435) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71434] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71434] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71434] [INFO] Finished server process [71434]
-[2024-10-04 10:25:50 -0400] [71437] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71437] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71437] [INFO] Finished server process [71437]
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71434) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71437) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71463] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71463] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71463] [INFO] Finished server process [71463]
-[2024-10-04 10:25:50 -0400] [71462] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71462] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71462] [INFO] Finished server process [71462]
-[2024-10-04 10:25:50 -0400] [71440] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71440] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71440] [INFO] Finished server process [71440]
-[2024-10-04 10:25:50 -0400] [71461] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71439] [INFO] Waiting for application shutdown.
-[2024-10-04 10:25:50 -0400] [71461] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71439] [INFO] Application shutdown complete.
-[2024-10-04 10:25:50 -0400] [71461] [INFO] Finished server process [71461]
-[2024-10-04 10:25:50 -0400] [71439] [INFO] Finished server process [71439]
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71440) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71463) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71462) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71461) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71429] [ERROR] Worker (pid:71439) was sent SIGTERM!
-[2024-10-04 10:25:50 -0400] [71429] [INFO] Shutting down: Master
-[2024-10-04 10:25:51 -0400] [71974] [INFO] Starting gunicorn 23.0.0
-[2024-10-04 10:25:51 -0400] [71974] [INFO] Listening at: http://192.168.0.200:5000 (71974)
-[2024-10-04 10:25:51 -0400] [71974] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2024-10-04 10:25:51 -0400] [71976] [INFO] Booting worker with pid: 71976
-[2024-10-04 10:25:51 -0400] [71977] [INFO] Booting worker with pid: 71977
-[2024-10-04 10:25:51 -0400] [71978] [INFO] Booting worker with pid: 71978
-[2024-10-04 10:25:51 -0400] [71979] [INFO] Booting worker with pid: 71979
-[2024-10-04 10:25:51 -0400] [71980] [INFO] Booting worker with pid: 71980
-[2024-10-04 10:25:51 -0400] [71981] [INFO] Booting worker with pid: 71981
-[2024-10-04 10:25:51 -0400] [71982] [INFO] Booting worker with pid: 71982
-[2024-10-04 10:25:51 -0400] [71983] [INFO] Booting worker with pid: 71983
-[2024-10-04 10:25:51 -0400] [71984] [INFO] Booting worker with pid: 71984
-[2024-10-04 10:25:51 -0400] [71985] [INFO] Booting worker with pid: 71985
-[2024-10-04 10:25:51 -0400] [71986] [INFO] Booting worker with pid: 71986
-[2024-10-04 10:25:51 -0400] [71991] [INFO] Booting worker with pid: 71991
-[2024-10-04 10:25:51 -0400] [72004] [INFO] Booting worker with pid: 72004
-[2024-10-04 10:25:51 -0400] [72005] [INFO] Booting worker with pid: 72005
-[2024-10-04 10:25:51 -0400] [72006] [INFO] Booting worker with pid: 72006
-[2024-10-04 10:25:54 -0400] [71977] [INFO] Started server process [71977]
-[2024-10-04 10:25:54 -0400] [71977] [INFO] Waiting for application startup.
-[2024-10-04 10:25:54 -0400] [71977] [INFO] Application startup complete.
-[2024-10-04 10:25:54 -0400] [71976] [INFO] Started server process [71976]
-[2024-10-04 10:25:54 -0400] [71976] [INFO] Waiting for application startup.
-[2024-10-04 10:25:54 -0400] [71976] [INFO] Application startup complete.
-[2024-10-04 10:25:55 -0400] [71979] [INFO] Started server process [71979]
-[2024-10-04 10:25:55 -0400] [71979] [INFO] Waiting for application startup.
-[2024-10-04 10:25:55 -0400] [71979] [INFO] Application startup complete.
-[2024-10-04 10:25:55 -0400] [71982] [INFO] Started server process [71982]
-[2024-10-04 10:25:55 -0400] [71982] [INFO] Waiting for application startup.
-[2024-10-04 10:25:55 -0400] [71982] [INFO] Application startup complete.
-[2024-10-04 10:25:55 -0400] [71981] [INFO] Started server process [71981]
-[2024-10-04 10:25:55 -0400] [71981] [INFO] Waiting for application startup.
-[2024-10-04 10:25:55 -0400] [71981] [INFO] Application startup complete.
-[2024-10-04 10:25:55 -0400] [71980] [INFO] Started server process [71980]
-[2024-10-04 10:25:55 -0400] [71980] [INFO] Waiting for application startup.
-[2024-10-04 10:25:55 -0400] [71980] [INFO] Application startup complete.
-[2024-10-04 10:25:55 -0400] [71978] [INFO] Started server process [71978]
-[2024-10-04 10:25:55 -0400] [71978] [INFO] Waiting for application startup.
-[2024-10-04 10:25:55 -0400] [71978] [INFO] Application startup complete.
-[2024-10-04 10:25:56 -0400] [71986] [INFO] Started server process [71986]
-[2024-10-04 10:25:56 -0400] [71986] [INFO] Waiting for application startup.
-[2024-10-04 10:25:56 -0400] [71986] [INFO] Application startup complete.
-[2024-10-04 10:25:56 -0400] [71985] [INFO] Started server process [71985]
-[2024-10-04 10:25:56 -0400] [71985] [INFO] Waiting for application startup.
-[2024-10-04 10:25:56 -0400] [71985] [INFO] Application startup complete.
-[2024-10-04 10:25:56 -0400] [71991] [INFO] Started server process [71991]
-[2024-10-04 10:25:56 -0400] [71991] [INFO] Waiting for application startup.
-[2024-10-04 10:25:56 -0400] [71991] [INFO] Application startup complete.
-[2024-10-04 10:25:56 -0400] [71983] [INFO] Started server process [71983]
-[2024-10-04 10:25:56 -0400] [71983] [INFO] Waiting for application startup.
-[2024-10-04 10:25:56 -0400] [71983] [INFO] Application startup complete.
-[2024-10-04 10:25:56 -0400] [72005] [INFO] Started server process [72005]
-[2024-10-04 10:25:56 -0400] [72005] [INFO] Waiting for application startup.
-[2024-10-04 10:25:56 -0400] [72005] [INFO] Application startup complete.
-[2024-10-04 10:25:56 -0400] [71984] [INFO] Started server process [71984]
-[2024-10-04 10:25:56 -0400] [71984] [INFO] Waiting for application startup.
-[2024-10-04 10:25:56 -0400] [71984] [INFO] Application startup complete.
-[2024-10-04 10:25:56 -0400] [72004] [INFO] Started server process [72004]
-[2024-10-04 10:25:56 -0400] [72004] [INFO] Waiting for application startup.
-[2024-10-04 10:25:56 -0400] [72004] [INFO] Application startup complete.
-[2024-10-04 10:25:56 -0400] [72006] [INFO] Started server process [72006]
-[2024-10-04 10:25:56 -0400] [72006] [INFO] Waiting for application startup.
-[2024-10-04 10:25:56 -0400] [72006] [INFO] Application startup complete.
-[2024-10-04 10:27:02 -0400] [71974] [INFO] Handling signal: term
-[2024-10-04 10:27:02 -0400] [71976] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71980] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71985] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71991] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71983] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71978] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71979] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71982] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71981] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [72004] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71977] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [72005] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71984] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71986] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [72006] [INFO] Shutting down
-[2024-10-04 10:27:02 -0400] [71976] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71976] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71976] [INFO] Finished server process [71976]
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71976) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71985] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71980] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71985] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71980] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71985] [INFO] Finished server process [71985]
-[2024-10-04 10:27:02 -0400] [71980] [INFO] Finished server process [71980]
-[2024-10-04 10:27:02 -0400] [71991] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71991] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71991] [INFO] Finished server process [71991]
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71980) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71985) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71991) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71978] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71983] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71978] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71983] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71983] [INFO] Finished server process [71983]
-[2024-10-04 10:27:02 -0400] [71978] [INFO] Finished server process [71978]
-[2024-10-04 10:27:02 -0400] [71979] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71979] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71979] [INFO] Finished server process [71979]
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71978) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71983) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71979) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71982] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71982] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71982] [INFO] Finished server process [71982]
-[2024-10-04 10:27:02 -0400] [71981] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71981] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71981] [INFO] Finished server process [71981]
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71982) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [72004] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [72004] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [72004] [INFO] Finished server process [72004]
-[2024-10-04 10:27:02 -0400] [71977] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [72005] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71977] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [72005] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71977] [INFO] Finished server process [71977]
-[2024-10-04 10:27:02 -0400] [72005] [INFO] Finished server process [72005]
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71981) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:72004) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71977) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:72005) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71984] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71984] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71984] [INFO] Finished server process [71984]
-[2024-10-04 10:27:02 -0400] [71986] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [72006] [INFO] Waiting for application shutdown.
-[2024-10-04 10:27:02 -0400] [71986] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [72006] [INFO] Application shutdown complete.
-[2024-10-04 10:27:02 -0400] [71986] [INFO] Finished server process [71986]
-[2024-10-04 10:27:02 -0400] [72006] [INFO] Finished server process [72006]
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71984) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:71986) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71974] [ERROR] Worker (pid:72006) was sent SIGTERM!
-[2024-10-04 10:27:02 -0400] [71974] [INFO] Shutting down: Master
-[2024-10-04 10:27:03 -0400] [72456] [INFO] Starting gunicorn 23.0.0
-[2024-10-04 10:27:03 -0400] [72456] [INFO] Listening at: http://192.168.0.200:5000 (72456)
-[2024-10-04 10:27:03 -0400] [72456] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2024-10-04 10:27:03 -0400] [72458] [INFO] Booting worker with pid: 72458
-[2024-10-04 10:27:03 -0400] [72459] [INFO] Booting worker with pid: 72459
-[2024-10-04 10:27:03 -0400] [72460] [INFO] Booting worker with pid: 72460
-[2024-10-04 10:27:03 -0400] [72461] [INFO] Booting worker with pid: 72461
-[2024-10-04 10:27:03 -0400] [72462] [INFO] Booting worker with pid: 72462
-[2024-10-04 10:27:03 -0400] [72463] [INFO] Booting worker with pid: 72463
-[2024-10-04 10:27:03 -0400] [72464] [INFO] Booting worker with pid: 72464
-[2024-10-04 10:27:03 -0400] [72465] [INFO] Booting worker with pid: 72465
-[2024-10-04 10:27:03 -0400] [72466] [INFO] Booting worker with pid: 72466
-[2024-10-04 10:27:03 -0400] [72467] [INFO] Booting worker with pid: 72467
-[2024-10-04 10:27:03 -0400] [72472] [INFO] Booting worker with pid: 72472
-[2024-10-04 10:27:03 -0400] [72485] [INFO] Booting worker with pid: 72485
-[2024-10-04 10:27:03 -0400] [72486] [INFO] Booting worker with pid: 72486
-[2024-10-04 10:27:03 -0400] [72487] [INFO] Booting worker with pid: 72487
-[2024-10-04 10:27:04 -0400] [72488] [INFO] Booting worker with pid: 72488
-[2024-10-04 10:27:07 -0400] [72459] [INFO] Started server process [72459]
-[2024-10-04 10:27:07 -0400] [72459] [INFO] Waiting for application startup.
-[2024-10-04 10:27:07 -0400] [72459] [INFO] Application startup complete.
-[2024-10-04 10:27:07 -0400] [72458] [INFO] Started server process [72458]
-[2024-10-04 10:27:07 -0400] [72458] [INFO] Waiting for application startup.
-[2024-10-04 10:27:07 -0400] [72458] [INFO] Application startup complete.
-[2024-10-04 10:27:07 -0400] [72460] [INFO] Started server process [72460]
-[2024-10-04 10:27:07 -0400] [72460] [INFO] Waiting for application startup.
-[2024-10-04 10:27:07 -0400] [72460] [INFO] Application startup complete.
-[2024-10-04 10:27:07 -0400] [72461] [INFO] Started server process [72461]
-[2024-10-04 10:27:07 -0400] [72461] [INFO] Waiting for application startup.
-[2024-10-04 10:27:07 -0400] [72461] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72465] [INFO] Started server process [72465]
-[2024-10-04 10:27:08 -0400] [72465] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72465] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72472] [INFO] Started server process [72472]
-[2024-10-04 10:27:08 -0400] [72472] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72472] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72464] [INFO] Started server process [72464]
-[2024-10-04 10:27:08 -0400] [72464] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72464] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72467] [INFO] Started server process [72467]
-[2024-10-04 10:27:08 -0400] [72467] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72467] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72466] [INFO] Started server process [72466]
-[2024-10-04 10:27:08 -0400] [72466] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72466] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72463] [INFO] Started server process [72463]
-[2024-10-04 10:27:08 -0400] [72463] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72463] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72462] [INFO] Started server process [72462]
-[2024-10-04 10:27:08 -0400] [72462] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72462] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72485] [INFO] Started server process [72485]
-[2024-10-04 10:27:08 -0400] [72485] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72485] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72487] [INFO] Started server process [72487]
-[2024-10-04 10:27:08 -0400] [72487] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72487] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72488] [INFO] Started server process [72488]
-[2024-10-04 10:27:08 -0400] [72488] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72488] [INFO] Application startup complete.
-[2024-10-04 10:27:08 -0400] [72486] [INFO] Started server process [72486]
-[2024-10-04 10:27:08 -0400] [72486] [INFO] Waiting for application startup.
-[2024-10-04 10:27:08 -0400] [72486] [INFO] Application startup complete.
-[2024-10-04 10:32:08 -0400] [72456] [INFO] Handling signal: term
-[2024-10-04 10:32:08 -0400] [72485] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72463] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72462] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72458] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72461] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72467] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72459] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72460] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72488] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72486] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72465] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72487] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72464] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72466] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72472] [INFO] Shutting down
-[2024-10-04 10:32:08 -0400] [72462] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72467] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72461] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72459] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72485] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72460] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72458] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72463] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72462] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72461] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72467] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72459] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72485] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72463] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72458] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72460] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72462] [INFO] Finished server process [72462]
-[2024-10-04 10:32:08 -0400] [72461] [INFO] Finished server process [72461]
-[2024-10-04 10:32:08 -0400] [72467] [INFO] Finished server process [72467]
-[2024-10-04 10:32:08 -0400] [72459] [INFO] Finished server process [72459]
-[2024-10-04 10:32:08 -0400] [72485] [INFO] Finished server process [72485]
-[2024-10-04 10:32:08 -0400] [72463] [INFO] Finished server process [72463]
-[2024-10-04 10:32:08 -0400] [72458] [INFO] Finished server process [72458]
-[2024-10-04 10:32:08 -0400] [72460] [INFO] Finished server process [72460]
-[2024-10-04 10:32:08 -0400] [72486] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72465] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72472] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72487] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72488] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72466] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72464] [INFO] Waiting for application shutdown.
-[2024-10-04 10:32:08 -0400] [72486] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72465] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72472] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72488] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72487] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72466] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72464] [INFO] Application shutdown complete.
-[2024-10-04 10:32:08 -0400] [72465] [INFO] Finished server process [72465]
-[2024-10-04 10:32:08 -0400] [72488] [INFO] Finished server process [72488]
-[2024-10-04 10:32:08 -0400] [72472] [INFO] Finished server process [72472]
-[2024-10-04 10:32:08 -0400] [72487] [INFO] Finished server process [72487]
-[2024-10-04 10:32:08 -0400] [72486] [INFO] Finished server process [72486]
-[2024-10-04 10:32:08 -0400] [72466] [INFO] Finished server process [72466]
-[2024-10-04 10:32:08 -0400] [72464] [INFO] Finished server process [72464]
-[2024-10-04 10:32:08 -0400] [72456] [ERROR] Worker (pid:72463) was sent SIGTERM!
-[2024-10-04 10:32:08 -0400] [72456] [ERROR] Worker (pid:72472) was sent SIGTERM!
-[2024-10-04 10:32:08 -0400] [72456] [ERROR] Worker (pid:72461) was sent SIGTERM!
-[2024-10-04 10:32:08 -0400] [72456] [ERROR] Worker (pid:72460) was sent SIGTERM!
-[2024-10-04 10:32:08 -0400] [72456] [ERROR] Worker (pid:72488) was sent SIGTERM!
-[2024-10-04 10:32:08 -0400] [72456] [ERROR] Worker (pid:72487) was sent SIGTERM!
-[2024-10-04 10:32:08 -0400] [72456] [ERROR] Worker (pid:72486) was sent SIGTERM!
-[2024-10-04 10:32:08 -0400] [72456] [ERROR] Worker (pid:72467) was sent SIGTERM!
-[2024-10-04 10:32:08 -0400] [72456] [ERROR] Worker (pid:72464) was sent SIGTERM!
-[2024-10-04 10:32:38 -0400] [72456] [INFO] Shutting down: Master
-[2024-10-04 10:32:38 -0400] [73274] [INFO] Starting gunicorn 23.0.0
-[2024-10-04 10:32:38 -0400] [73274] [INFO] Listening at: http://192.168.0.200:5000 (73274)
-[2024-10-04 10:32:38 -0400] [73274] [INFO] Using worker: uvicorn.workers.UvicornWorker
-[2024-10-04 10:32:38 -0400] [73276] [INFO] Booting worker with pid: 73276
-[2024-10-04 10:32:38 -0400] [73277] [INFO] Booting worker with pid: 73277
-[2024-10-04 10:32:38 -0400] [73278] [INFO] Booting worker with pid: 73278
-[2024-10-04 10:32:38 -0400] [73279] [INFO] Booting worker with pid: 73279
-[2024-10-04 10:32:38 -0400] [73280] [INFO] Booting worker with pid: 73280
-[2024-10-04 10:32:38 -0400] [73281] [INFO] Booting worker with pid: 73281
-[2024-10-04 10:32:38 -0400] [73282] [INFO] Booting worker with pid: 73282
-[2024-10-04 10:32:38 -0400] [73283] [INFO] Booting worker with pid: 73283
-[2024-10-04 10:32:39 -0400] [73284] [INFO] Booting worker with pid: 73284
-[2024-10-04 10:32:39 -0400] [73285] [INFO] Booting worker with pid: 73285
-[2024-10-04 10:32:39 -0400] [73286] [INFO] Booting worker with pid: 73286
-[2024-10-04 10:32:39 -0400] [73287] [INFO] Booting worker with pid: 73287
-[2024-10-04 10:32:39 -0400] [73288] [INFO] Booting worker with pid: 73288
-[2024-10-04 10:32:39 -0400] [73289] [INFO] Booting worker with pid: 73289
-[2024-10-04 10:32:39 -0400] [73290] [INFO] Booting worker with pid: 73290
-[2024-10-04 10:32:42 -0400] [73277] [INFO] Started server process [73277]
-[2024-10-04 10:32:42 -0400] [73277] [INFO] Waiting for application startup.
-[2024-10-04 10:32:42 -0400] [73277] [INFO] Application startup complete.
-[2024-10-04 10:32:42 -0400] [73276] [INFO] Started server process [73276]
-[2024-10-04 10:32:42 -0400] [73276] [INFO] Waiting for application startup.
-[2024-10-04 10:32:42 -0400] [73276] [INFO] Application startup complete.
-[2024-10-04 10:32:42 -0400] [73278] [INFO] Started server process [73278]
-[2024-10-04 10:32:42 -0400] [73278] [INFO] Waiting for application startup.
-[2024-10-04 10:32:42 -0400] [73278] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73280] [INFO] Started server process [73280]
-[2024-10-04 10:32:43 -0400] [73280] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73280] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73279] [INFO] Started server process [73279]
-[2024-10-04 10:32:43 -0400] [73279] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73279] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73281] [INFO] Started server process [73281]
-[2024-10-04 10:32:43 -0400] [73281] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73281] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73284] [INFO] Started server process [73284]
-[2024-10-04 10:32:43 -0400] [73284] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73284] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73282] [INFO] Started server process [73282]
-[2024-10-04 10:32:43 -0400] [73282] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73282] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73289] [INFO] Started server process [73289]
-[2024-10-04 10:32:43 -0400] [73289] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73289] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73283] [INFO] Started server process [73283]
-[2024-10-04 10:32:43 -0400] [73283] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73283] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73288] [INFO] Started server process [73288]
-[2024-10-04 10:32:43 -0400] [73288] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73288] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73287] [INFO] Started server process [73287]
-[2024-10-04 10:32:43 -0400] [73287] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73287] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73285] [INFO] Started server process [73285]
-[2024-10-04 10:32:43 -0400] [73285] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73285] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73286] [INFO] Started server process [73286]
-[2024-10-04 10:32:43 -0400] [73286] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73286] [INFO] Application startup complete.
-[2024-10-04 10:32:43 -0400] [73290] [INFO] Started server process [73290]
-[2024-10-04 10:32:43 -0400] [73290] [INFO] Waiting for application startup.
-[2024-10-04 10:32:43 -0400] [73290] [INFO] Application startup complete.
+  File "/var/www/html/fastapi_project/start_files/routes/routes.py", line 129, in dashboard
+    dashboard_data = get_dashboard_data(db)  # Ensure this function is defined elsewhere
+                     ^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/fastapi_project/start_files/routes/routes.py", line 148, in get_dashboard_data
+    analytics_data = get_analytics_data(db_session, days)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/var/www/html/fastapi_project/start_files/routes/routes.py", line 174, in get_analytics_data
+    start_date = end_date - datetime.timedelta(days=days)
+                            ^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'datetime.datetime' has no attribute 'timedelta'
+[2024-10-04 17:14:53 -0400] [439862] [INFO] Started server process [439862]
+[2024-10-04 17:14:53 -0400] [439862] [INFO] Waiting for application startup.
+[2024-10-04 17:14:53 -0400] [439862] [INFO] Application startup complete.
+[2024-10-04 17:14:53 -0400] [439863] [INFO] Started server process [439863]
+[2024-10-04 17:14:53 -0400] [439863] [INFO] Waiting for application startup.
+[2024-10-04 17:14:53 -0400] [439863] [INFO] Application startup complete.
+[2024-10-04 17:14:53 -0400] [439868] [INFO] Started server process [439868]
+[2024-10-04 17:14:53 -0400] [439868] [INFO] Waiting for application startup.
+[2024-10-04 17:14:53 -0400] [439868] [INFO] Application startup complete.
+[2024-10-04 17:14:53 -0400] [439869] [INFO] Started server process [439869]
+[2024-10-04 17:14:53 -0400] [439869] [INFO] Waiting for application startup.
+[2024-10-04 17:14:53 -0400] [439869] [INFO] Application startup complete.
+[2024-10-04 17:14:53 -0400] [439881] [INFO] Started server process [439881]
+[2024-10-04 17:14:53 -0400] [439881] [INFO] Waiting for application startup.
+[2024-10-04 17:14:53 -0400] [439881] [INFO] Application startup complete.
+[2024-10-04 17:14:53 -0400] [439867] [INFO] Started server process [439867]
+[2024-10-04 17:14:53 -0400] [439867] [INFO] Waiting for application startup.
+[2024-10-04 17:14:53 -0400] [439867] [INFO] Application startup complete.
+[2024-10-04 17:14:53 -0400] [439879] [INFO] Started server process [439879]
+[2024-10-04 17:14:53 -0400] [439879] [INFO] Waiting for application startup.
+[2024-10-04 17:14:53 -0400] [439879] [INFO] Application startup complete.
+[2024-10-04 17:16:18 -0400] [439859] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439863] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439866] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439856] [INFO] Handling signal: term
+[2024-10-04 17:16:18 -0400] [439880] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439867] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439868] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439869] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439858] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439879] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439881] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439860] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439861] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439865] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439862] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439864] [INFO] Shutting down
+[2024-10-04 17:16:18 -0400] [439866] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439859] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439863] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439866] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439866] [INFO] Finished server process [439866]
+[2024-10-04 17:16:18 -0400] [439859] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439880] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439863] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439863] [INFO] Finished server process [439863]
+[2024-10-04 17:16:18 -0400] [439859] [INFO] Finished server process [439859]
+[2024-10-04 17:16:18 -0400] [439880] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439880] [INFO] Finished server process [439880]
+[2024-10-04 17:16:18 -0400] [439867] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439867] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439868] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439867] [INFO] Finished server process [439867]
+[2024-10-04 17:16:18 -0400] [439868] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439868] [INFO] Finished server process [439868]
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439859) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439863) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439866) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439880) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439869] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439869] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439869] [INFO] Finished server process [439869]
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439867) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439868) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439869) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439858] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439879] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439858] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439879] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439858] [INFO] Finished server process [439858]
+[2024-10-04 17:16:18 -0400] [439879] [INFO] Finished server process [439879]
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439858) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439879) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439881] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439881] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439881] [INFO] Finished server process [439881]
+[2024-10-04 17:16:18 -0400] [439860] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439861] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439860] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439860] [INFO] Finished server process [439860]
+[2024-10-04 17:16:18 -0400] [439861] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439861] [INFO] Finished server process [439861]
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439881) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439865] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439865] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439865] [INFO] Finished server process [439865]
+[2024-10-04 17:16:18 -0400] [439862] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439862] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439862] [INFO] Finished server process [439862]
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439861) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439860) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439865) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439862) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439864] [INFO] Waiting for application shutdown.
+[2024-10-04 17:16:18 -0400] [439864] [INFO] Application shutdown complete.
+[2024-10-04 17:16:18 -0400] [439864] [INFO] Finished server process [439864]
+[2024-10-04 17:16:18 -0400] [439856] [ERROR] Worker (pid:439864) was sent SIGTERM!
+[2024-10-04 17:16:18 -0400] [439856] [INFO] Shutting down: Master
+[2024-10-04 17:16:18 -0400] [440565] [INFO] Starting gunicorn 23.0.0
+[2024-10-04 17:16:18 -0400] [440565] [INFO] Listening at: http://192.168.0.200:5000 (440565)
+[2024-10-04 17:16:18 -0400] [440565] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-10-04 17:16:18 -0400] [440567] [INFO] Booting worker with pid: 440567
+[2024-10-04 17:16:18 -0400] [440568] [INFO] Booting worker with pid: 440568
+[2024-10-04 17:16:18 -0400] [440569] [INFO] Booting worker with pid: 440569
+[2024-10-04 17:16:18 -0400] [440570] [INFO] Booting worker with pid: 440570
+[2024-10-04 17:16:18 -0400] [440571] [INFO] Booting worker with pid: 440571
+[2024-10-04 17:16:19 -0400] [440572] [INFO] Booting worker with pid: 440572
+[2024-10-04 17:16:19 -0400] [440573] [INFO] Booting worker with pid: 440573
+[2024-10-04 17:16:19 -0400] [440574] [INFO] Booting worker with pid: 440574
+[2024-10-04 17:16:19 -0400] [440575] [INFO] Booting worker with pid: 440575
+[2024-10-04 17:16:19 -0400] [440576] [INFO] Booting worker with pid: 440576
+[2024-10-04 17:16:19 -0400] [440577] [INFO] Booting worker with pid: 440577
+[2024-10-04 17:16:19 -0400] [440582] [INFO] Booting worker with pid: 440582
+[2024-10-04 17:16:19 -0400] [440584] [INFO] Booting worker with pid: 440584
+[2024-10-04 17:16:19 -0400] [440589] [INFO] Booting worker with pid: 440589
+[2024-10-04 17:16:19 -0400] [440590] [INFO] Booting worker with pid: 440590
+[2024-10-04 17:16:22 -0400] [440568] [INFO] Started server process [440568]
+[2024-10-04 17:16:22 -0400] [440568] [INFO] Waiting for application startup.
+[2024-10-04 17:16:22 -0400] [440568] [INFO] Application startup complete.
+[2024-10-04 17:16:22 -0400] [440567] [INFO] Started server process [440567]
+[2024-10-04 17:16:22 -0400] [440567] [INFO] Waiting for application startup.
+[2024-10-04 17:16:22 -0400] [440567] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440570] [INFO] Started server process [440570]
+[2024-10-04 17:16:23 -0400] [440570] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440570] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440577] [INFO] Started server process [440577]
+[2024-10-04 17:16:23 -0400] [440577] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440577] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440569] [INFO] Started server process [440569]
+[2024-10-04 17:16:23 -0400] [440569] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440569] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440576] [INFO] Started server process [440576]
+[2024-10-04 17:16:23 -0400] [440576] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440576] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440572] [INFO] Started server process [440572]
+[2024-10-04 17:16:23 -0400] [440572] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440572] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440574] [INFO] Started server process [440574]
+[2024-10-04 17:16:23 -0400] [440574] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440574] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440575] [INFO] Started server process [440575]
+[2024-10-04 17:16:23 -0400] [440575] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440575] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440582] [INFO] Started server process [440582]
+[2024-10-04 17:16:23 -0400] [440582] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440582] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440571] [INFO] Started server process [440571]
+[2024-10-04 17:16:23 -0400] [440571] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440571] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440573] [INFO] Started server process [440573]
+[2024-10-04 17:16:23 -0400] [440573] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440573] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440584] [INFO] Started server process [440584]
+[2024-10-04 17:16:23 -0400] [440584] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440584] [INFO] Application startup complete.
+[2024-10-04 17:16:23 -0400] [440590] [INFO] Started server process [440590]
+[2024-10-04 17:16:23 -0400] [440590] [INFO] Waiting for application startup.
+[2024-10-04 17:16:23 -0400] [440590] [INFO] Application startup complete.
+[2024-10-04 17:16:24 -0400] [440589] [INFO] Started server process [440589]
+[2024-10-04 17:16:24 -0400] [440589] [INFO] Waiting for application startup.
+[2024-10-04 17:16:24 -0400] [440589] [INFO] Application startup complete.
+[2024-10-04 17:24:36 -0400] [440565] [INFO] Handling signal: term
+[2024-10-04 17:24:37 -0400] [440571] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440574] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440573] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440567] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440572] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440589] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440569] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440576] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440568] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440584] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440577] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440590] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440582] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440575] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440570] [INFO] Shutting down
+[2024-10-04 17:24:37 -0400] [440571] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440574] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440571] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440574] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440571] [INFO] Finished server process [440571]
+[2024-10-04 17:24:37 -0400] [440574] [INFO] Finished server process [440574]
+[2024-10-04 17:24:37 -0400] [440567] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440573] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440572] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440589] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440567] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440573] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440572] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440567] [INFO] Finished server process [440567]
+[2024-10-04 17:24:37 -0400] [440589] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440573] [INFO] Finished server process [440573]
+[2024-10-04 17:24:37 -0400] [440572] [INFO] Finished server process [440572]
+[2024-10-04 17:24:37 -0400] [440589] [INFO] Finished server process [440589]
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440574) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440571) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440573) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440567) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440589) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440572) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440569] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440576] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440569] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440576] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440569] [INFO] Finished server process [440569]
+[2024-10-04 17:24:37 -0400] [440576] [INFO] Finished server process [440576]
+[2024-10-04 17:24:37 -0400] [440568] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440568] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440568] [INFO] Finished server process [440568]
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440576) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440569) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440568) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440577] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440584] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440582] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440590] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440577] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440584] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440582] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440590] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440584] [INFO] Finished server process [440584]
+[2024-10-04 17:24:37 -0400] [440577] [INFO] Finished server process [440577]
+[2024-10-04 17:24:37 -0400] [440582] [INFO] Finished server process [440582]
+[2024-10-04 17:24:37 -0400] [440590] [INFO] Finished server process [440590]
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440577) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440584) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440582) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440590) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440575] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440575] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440575] [INFO] Finished server process [440575]
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440575) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440570] [INFO] Waiting for application shutdown.
+[2024-10-04 17:24:37 -0400] [440570] [INFO] Application shutdown complete.
+[2024-10-04 17:24:37 -0400] [440570] [INFO] Finished server process [440570]
+[2024-10-04 17:24:37 -0400] [440565] [ERROR] Worker (pid:440570) was sent SIGTERM!
+[2024-10-04 17:24:37 -0400] [440565] [INFO] Shutting down: Master
+[2024-10-04 17:24:37 -0400] [442143] [INFO] Starting gunicorn 23.0.0
+[2024-10-04 17:24:37 -0400] [442143] [INFO] Listening at: http://192.168.0.200:5000 (442143)
+[2024-10-04 17:24:37 -0400] [442143] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-10-04 17:24:37 -0400] [442147] [INFO] Booting worker with pid: 442147
+[2024-10-04 17:24:37 -0400] [442148] [INFO] Booting worker with pid: 442148
+[2024-10-04 17:24:37 -0400] [442149] [INFO] Booting worker with pid: 442149
+[2024-10-04 17:24:37 -0400] [442150] [INFO] Booting worker with pid: 442150
+[2024-10-04 17:24:37 -0400] [442151] [INFO] Booting worker with pid: 442151
+[2024-10-04 17:24:37 -0400] [442152] [INFO] Booting worker with pid: 442152
+[2024-10-04 17:24:37 -0400] [442153] [INFO] Booting worker with pid: 442153
+[2024-10-04 17:24:37 -0400] [442154] [INFO] Booting worker with pid: 442154
+[2024-10-04 17:24:37 -0400] [442155] [INFO] Booting worker with pid: 442155
+[2024-10-04 17:24:37 -0400] [442156] [INFO] Booting worker with pid: 442156
+[2024-10-04 17:24:37 -0400] [442157] [INFO] Booting worker with pid: 442157
+[2024-10-04 17:24:38 -0400] [442162] [INFO] Booting worker with pid: 442162
+[2024-10-04 17:24:38 -0400] [442168] [INFO] Booting worker with pid: 442168
+[2024-10-04 17:24:38 -0400] [442169] [INFO] Booting worker with pid: 442169
+[2024-10-04 17:24:38 -0400] [442170] [INFO] Booting worker with pid: 442170
+[2024-10-04 17:24:42 -0400] [442149] [INFO] Started server process [442149]
+[2024-10-04 17:24:42 -0400] [442149] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442149] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442150] [INFO] Started server process [442150]
+[2024-10-04 17:24:42 -0400] [442150] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442150] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442151] [INFO] Started server process [442151]
+[2024-10-04 17:24:42 -0400] [442151] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442151] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442148] [INFO] Started server process [442148]
+[2024-10-04 17:24:42 -0400] [442148] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442148] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442147] [INFO] Started server process [442147]
+[2024-10-04 17:24:42 -0400] [442147] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442147] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442157] [INFO] Started server process [442157]
+[2024-10-04 17:24:42 -0400] [442157] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442157] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442168] [INFO] Started server process [442168]
+[2024-10-04 17:24:42 -0400] [442168] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442168] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442154] [INFO] Started server process [442154]
+[2024-10-04 17:24:42 -0400] [442154] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442154] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442152] [INFO] Started server process [442152]
+[2024-10-04 17:24:42 -0400] [442152] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442152] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442155] [INFO] Started server process [442155]
+[2024-10-04 17:24:42 -0400] [442155] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442155] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442153] [INFO] Started server process [442153]
+[2024-10-04 17:24:42 -0400] [442153] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442153] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442156] [INFO] Started server process [442156]
+[2024-10-04 17:24:42 -0400] [442156] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442156] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442162] [INFO] Started server process [442162]
+[2024-10-04 17:24:42 -0400] [442162] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442162] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442169] [INFO] Started server process [442169]
+[2024-10-04 17:24:42 -0400] [442169] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442169] [INFO] Application startup complete.
+[2024-10-04 17:24:42 -0400] [442170] [INFO] Started server process [442170]
+[2024-10-04 17:24:42 -0400] [442170] [INFO] Waiting for application startup.
+[2024-10-04 17:24:42 -0400] [442170] [INFO] Application startup complete.
+[2024-10-04 17:25:29 -0400] [442143] [INFO] Handling signal: term
+[2024-10-04 17:25:29 -0400] [442157] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442156] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442168] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442162] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442169] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442154] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442150] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442152] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442170] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442148] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442155] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442153] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442151] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442147] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442149] [INFO] Shutting down
+[2024-10-04 17:25:29 -0400] [442157] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442157] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442157] [INFO] Finished server process [442157]
+[2024-10-04 17:25:29 -0400] [442156] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442156] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442156] [INFO] Finished server process [442156]
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442157) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442156) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442168] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442168] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442168] [INFO] Finished server process [442168]
+[2024-10-04 17:25:29 -0400] [442162] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442162] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442162] [INFO] Finished server process [442162]
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442168) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442162) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442154] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442169] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442154] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442169] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442154] [INFO] Finished server process [442154]
+[2024-10-04 17:25:29 -0400] [442169] [INFO] Finished server process [442169]
+[2024-10-04 17:25:29 -0400] [442150] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442150] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442150] [INFO] Finished server process [442150]
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442154) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442169) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442150) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442152] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442152] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442152] [INFO] Finished server process [442152]
+[2024-10-04 17:25:29 -0400] [442170] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442170] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442170] [INFO] Finished server process [442170]
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442152) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442148] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442148] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442148] [INFO] Finished server process [442148]
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442170) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442148) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442155] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442155] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442155] [INFO] Finished server process [442155]
+[2024-10-04 17:25:29 -0400] [442153] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442153] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442153] [INFO] Finished server process [442153]
+[2024-10-04 17:25:29 -0400] [442151] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442151] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442151] [INFO] Finished server process [442151]
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442155) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442153) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442147] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442147] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442147] [INFO] Finished server process [442147]
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442151) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442147) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442149] [INFO] Waiting for application shutdown.
+[2024-10-04 17:25:29 -0400] [442149] [INFO] Application shutdown complete.
+[2024-10-04 17:25:29 -0400] [442149] [INFO] Finished server process [442149]
+[2024-10-04 17:25:29 -0400] [442143] [ERROR] Worker (pid:442149) was sent SIGTERM!
+[2024-10-04 17:25:29 -0400] [442143] [INFO] Shutting down: Master
+[2024-10-04 17:25:30 -0400] [442752] [INFO] Starting gunicorn 23.0.0
+[2024-10-04 17:25:30 -0400] [442752] [INFO] Listening at: http://192.168.0.200:5000 (442752)
+[2024-10-04 17:25:30 -0400] [442752] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-10-04 17:25:30 -0400] [442754] [INFO] Booting worker with pid: 442754
+[2024-10-04 17:25:30 -0400] [442755] [INFO] Booting worker with pid: 442755
+[2024-10-04 17:25:30 -0400] [442756] [INFO] Booting worker with pid: 442756
+[2024-10-04 17:25:30 -0400] [442757] [INFO] Booting worker with pid: 442757
+[2024-10-04 17:25:30 -0400] [442758] [INFO] Booting worker with pid: 442758
+[2024-10-04 17:25:30 -0400] [442759] [INFO] Booting worker with pid: 442759
+[2024-10-04 17:25:30 -0400] [442760] [INFO] Booting worker with pid: 442760
+[2024-10-04 17:25:30 -0400] [442761] [INFO] Booting worker with pid: 442761
+[2024-10-04 17:25:30 -0400] [442762] [INFO] Booting worker with pid: 442762
+[2024-10-04 17:25:30 -0400] [442763] [INFO] Booting worker with pid: 442763
+[2024-10-04 17:25:30 -0400] [442773] [INFO] Booting worker with pid: 442773
+[2024-10-04 17:25:30 -0400] [442774] [INFO] Booting worker with pid: 442774
+[2024-10-04 17:25:30 -0400] [442775] [INFO] Booting worker with pid: 442775
+[2024-10-04 17:25:30 -0400] [442776] [INFO] Booting worker with pid: 442776
+[2024-10-04 17:25:30 -0400] [442777] [INFO] Booting worker with pid: 442777
+[2024-10-04 17:25:33 -0400] [442755] [INFO] Started server process [442755]
+[2024-10-04 17:25:33 -0400] [442755] [INFO] Waiting for application startup.
+[2024-10-04 17:25:33 -0400] [442755] [INFO] Application startup complete.
+[2024-10-04 17:25:34 -0400] [442757] [INFO] Started server process [442757]
+[2024-10-04 17:25:34 -0400] [442757] [INFO] Waiting for application startup.
+[2024-10-04 17:25:34 -0400] [442757] [INFO] Application startup complete.
+[2024-10-04 17:25:34 -0400] [442754] [INFO] Started server process [442754]
+[2024-10-04 17:25:34 -0400] [442754] [INFO] Waiting for application startup.
+[2024-10-04 17:25:34 -0400] [442754] [INFO] Application startup complete.
+[2024-10-04 17:25:34 -0400] [442760] [INFO] Started server process [442760]
+[2024-10-04 17:25:34 -0400] [442760] [INFO] Waiting for application startup.
+[2024-10-04 17:25:34 -0400] [442760] [INFO] Application startup complete.
+[2024-10-04 17:25:34 -0400] [442756] [INFO] Started server process [442756]
+[2024-10-04 17:25:34 -0400] [442756] [INFO] Waiting for application startup.
+[2024-10-04 17:25:34 -0400] [442756] [INFO] Application startup complete.
+[2024-10-04 17:25:34 -0400] [442761] [INFO] Started server process [442761]
+[2024-10-04 17:25:34 -0400] [442761] [INFO] Waiting for application startup.
+[2024-10-04 17:25:34 -0400] [442761] [INFO] Application startup complete.
+[2024-10-04 17:25:34 -0400] [442773] [INFO] Started server process [442773]
+[2024-10-04 17:25:34 -0400] [442773] [INFO] Waiting for application startup.
+[2024-10-04 17:25:34 -0400] [442773] [INFO] Application startup complete.
+[2024-10-04 17:25:34 -0400] [442759] [INFO] Started server process [442759]
+[2024-10-04 17:25:34 -0400] [442759] [INFO] Waiting for application startup.
+[2024-10-04 17:25:34 -0400] [442759] [INFO] Application startup complete.
+[2024-10-04 17:25:34 -0400] [442758] [INFO] Started server process [442758]
+[2024-10-04 17:25:34 -0400] [442758] [INFO] Waiting for application startup.
+[2024-10-04 17:25:34 -0400] [442758] [INFO] Application startup complete.
+[2024-10-04 17:25:35 -0400] [442762] [INFO] Started server process [442762]
+[2024-10-04 17:25:35 -0400] [442762] [INFO] Waiting for application startup.
+[2024-10-04 17:25:35 -0400] [442762] [INFO] Application startup complete.
+[2024-10-04 17:25:35 -0400] [442763] [INFO] Started server process [442763]
+[2024-10-04 17:25:35 -0400] [442763] [INFO] Waiting for application startup.
+[2024-10-04 17:25:35 -0400] [442763] [INFO] Application startup complete.
+[2024-10-04 17:25:35 -0400] [442775] [INFO] Started server process [442775]
+[2024-10-04 17:25:35 -0400] [442775] [INFO] Waiting for application startup.
+[2024-10-04 17:25:35 -0400] [442775] [INFO] Application startup complete.
+[2024-10-04 17:25:35 -0400] [442776] [INFO] Started server process [442776]
+[2024-10-04 17:25:35 -0400] [442776] [INFO] Waiting for application startup.
+[2024-10-04 17:25:35 -0400] [442776] [INFO] Application startup complete.
+[2024-10-04 17:25:35 -0400] [442774] [INFO] Started server process [442774]
+[2024-10-04 17:25:35 -0400] [442774] [INFO] Waiting for application startup.
+[2024-10-04 17:25:35 -0400] [442774] [INFO] Application startup complete.
+[2024-10-04 17:25:35 -0400] [442777] [INFO] Started server process [442777]
+[2024-10-04 17:25:35 -0400] [442777] [INFO] Waiting for application startup.
+[2024-10-04 17:25:35 -0400] [442777] [INFO] Application startup complete.
+[2024-10-04 17:31:02 -0400] [442752] [INFO] Handling signal: term
+[2024-10-04 17:31:02 -0400] [442777] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442756] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442754] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442761] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442758] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442762] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442776] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442763] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442775] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442774] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442773] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442757] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442760] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442755] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442759] [INFO] Shutting down
+[2024-10-04 17:31:02 -0400] [442777] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442777] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442777] [INFO] Finished server process [442777]
+[2024-10-04 17:31:02 -0400] [442756] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442754] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442761] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442761] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442758] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442756] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442754] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442761] [INFO] Finished server process [442761]
+[2024-10-04 17:31:02 -0400] [442756] [INFO] Finished server process [442756]
+[2024-10-04 17:31:02 -0400] [442762] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442754] [INFO] Finished server process [442754]
+[2024-10-04 17:31:02 -0400] [442758] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442762] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442758] [INFO] Finished server process [442758]
+[2024-10-04 17:31:02 -0400] [442762] [INFO] Finished server process [442762]
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442754) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442756) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442777) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442758) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442761) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442762) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442776] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442776] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442776] [INFO] Finished server process [442776]
+[2024-10-04 17:31:02 -0400] [442763] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442775] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442763] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442763] [INFO] Finished server process [442763]
+[2024-10-04 17:31:02 -0400] [442775] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442775] [INFO] Finished server process [442775]
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442776) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442763) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442775) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442774] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442774] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442774] [INFO] Finished server process [442774]
+[2024-10-04 17:31:02 -0400] [442773] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442773] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442773] [INFO] Finished server process [442773]
+[2024-10-04 17:31:02 -0400] [442757] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442757] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442757] [INFO] Finished server process [442757]
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442774) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442773) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442760] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442760] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442760] [INFO] Finished server process [442760]
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442757) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442760) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442755] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442759] [INFO] Waiting for application shutdown.
+[2024-10-04 17:31:02 -0400] [442755] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442759] [INFO] Application shutdown complete.
+[2024-10-04 17:31:02 -0400] [442755] [INFO] Finished server process [442755]
+[2024-10-04 17:31:02 -0400] [442759] [INFO] Finished server process [442759]
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442755) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [ERROR] Worker (pid:442759) was sent SIGTERM!
+[2024-10-04 17:31:02 -0400] [442752] [INFO] Shutting down: Master
+[2024-10-04 17:31:03 -0400] [443592] [INFO] Starting gunicorn 23.0.0
+[2024-10-04 17:31:03 -0400] [443592] [INFO] Listening at: http://192.168.0.200:5000 (443592)
+[2024-10-04 17:31:03 -0400] [443592] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-10-04 17:31:03 -0400] [443596] [INFO] Booting worker with pid: 443596
+[2024-10-04 17:31:03 -0400] [443597] [INFO] Booting worker with pid: 443597
+[2024-10-04 17:31:03 -0400] [443598] [INFO] Booting worker with pid: 443598
+[2024-10-04 17:31:03 -0400] [443599] [INFO] Booting worker with pid: 443599
+[2024-10-04 17:31:03 -0400] [443600] [INFO] Booting worker with pid: 443600
+[2024-10-04 17:31:03 -0400] [443601] [INFO] Booting worker with pid: 443601
+[2024-10-04 17:31:03 -0400] [443602] [INFO] Booting worker with pid: 443602
+[2024-10-04 17:31:03 -0400] [443603] [INFO] Booting worker with pid: 443603
+[2024-10-04 17:31:03 -0400] [443604] [INFO] Booting worker with pid: 443604
+[2024-10-04 17:31:03 -0400] [443605] [INFO] Booting worker with pid: 443605
+[2024-10-04 17:31:03 -0400] [443610] [INFO] Booting worker with pid: 443610
+[2024-10-04 17:31:03 -0400] [443616] [INFO] Booting worker with pid: 443616
+[2024-10-04 17:31:03 -0400] [443617] [INFO] Booting worker with pid: 443617
+[2024-10-04 17:31:03 -0400] [443618] [INFO] Booting worker with pid: 443618
+[2024-10-04 17:31:03 -0400] [443619] [INFO] Booting worker with pid: 443619
+[2024-10-04 17:31:06 -0400] [443597] [INFO] Started server process [443597]
+[2024-10-04 17:31:06 -0400] [443597] [INFO] Waiting for application startup.
+[2024-10-04 17:31:06 -0400] [443597] [INFO] Application startup complete.
+[2024-10-04 17:31:07 -0400] [443596] [INFO] Started server process [443596]
+[2024-10-04 17:31:07 -0400] [443596] [INFO] Waiting for application startup.
+[2024-10-04 17:31:07 -0400] [443596] [INFO] Application startup complete.
+[2024-10-04 17:31:07 -0400] [443599] [INFO] Started server process [443599]
+[2024-10-04 17:31:07 -0400] [443599] [INFO] Waiting for application startup.
+[2024-10-04 17:31:07 -0400] [443599] [INFO] Application startup complete.
+[2024-10-04 17:31:07 -0400] [443598] [INFO] Started server process [443598]
+[2024-10-04 17:31:07 -0400] [443598] [INFO] Waiting for application startup.
+[2024-10-04 17:31:07 -0400] [443598] [INFO] Application startup complete.
+[2024-10-04 17:31:07 -0400] [443603] [INFO] Started server process [443603]
+[2024-10-04 17:31:07 -0400] [443603] [INFO] Waiting for application startup.
+[2024-10-04 17:31:07 -0400] [443603] [INFO] Application startup complete.
+[2024-10-04 17:31:07 -0400] [443600] [INFO] Started server process [443600]
+[2024-10-04 17:31:07 -0400] [443600] [INFO] Waiting for application startup.
+[2024-10-04 17:31:07 -0400] [443600] [INFO] Application startup complete.
+[2024-10-04 17:31:07 -0400] [443618] [INFO] Started server process [443618]
+[2024-10-04 17:31:07 -0400] [443618] [INFO] Waiting for application startup.
+[2024-10-04 17:31:07 -0400] [443618] [INFO] Application startup complete.
+[2024-10-04 17:31:07 -0400] [443604] [INFO] Started server process [443604]
+[2024-10-04 17:31:07 -0400] [443604] [INFO] Waiting for application startup.
+[2024-10-04 17:31:07 -0400] [443604] [INFO] Application startup complete.
+[2024-10-04 17:31:08 -0400] [443616] [INFO] Started server process [443616]
+[2024-10-04 17:31:08 -0400] [443616] [INFO] Waiting for application startup.
+[2024-10-04 17:31:08 -0400] [443616] [INFO] Application startup complete.
+[2024-10-04 17:31:08 -0400] [443605] [INFO] Started server process [443605]
+[2024-10-04 17:31:08 -0400] [443605] [INFO] Waiting for application startup.
+[2024-10-04 17:31:08 -0400] [443605] [INFO] Application startup complete.
+[2024-10-04 17:31:08 -0400] [443602] [INFO] Started server process [443602]
+[2024-10-04 17:31:08 -0400] [443601] [INFO] Started server process [443601]
+[2024-10-04 17:31:08 -0400] [443601] [INFO] Waiting for application startup.
+[2024-10-04 17:31:08 -0400] [443602] [INFO] Waiting for application startup.
+[2024-10-04 17:31:08 -0400] [443601] [INFO] Application startup complete.
+[2024-10-04 17:31:08 -0400] [443602] [INFO] Application startup complete.
+[2024-10-04 17:31:08 -0400] [443610] [INFO] Started server process [443610]
+[2024-10-04 17:31:08 -0400] [443610] [INFO] Waiting for application startup.
+[2024-10-04 17:31:08 -0400] [443610] [INFO] Application startup complete.
+[2024-10-04 17:31:08 -0400] [443617] [INFO] Started server process [443617]
+[2024-10-04 17:31:08 -0400] [443617] [INFO] Waiting for application startup.
+[2024-10-04 17:31:08 -0400] [443617] [INFO] Application startup complete.
+[2024-10-04 17:31:08 -0400] [443619] [INFO] Started server process [443619]
+[2024-10-04 17:31:08 -0400] [443619] [INFO] Waiting for application startup.
+[2024-10-04 17:31:08 -0400] [443619] [INFO] Application startup complete.
+[2024-10-04 17:34:47 -0400] [443592] [INFO] Handling signal: term
+[2024-10-04 17:34:47 -0400] [443617] [INFO] Shutting down
+[2024-10-04 17:34:47 -0400] [443610] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443600] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443599] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443618] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443596] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443604] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443616] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443619] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443603] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443605] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443598] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443597] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443601] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443602] [INFO] Shutting down
+[2024-10-04 17:34:48 -0400] [443617] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443617] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443617] [INFO] Finished server process [443617]
+[2024-10-04 17:34:48 -0400] [443610] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443610] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443610] [INFO] Finished server process [443610]
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443610) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443617) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443600] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443600] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443600] [INFO] Finished server process [443600]
+[2024-10-04 17:34:48 -0400] [443599] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443599] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443599] [INFO] Finished server process [443599]
+[2024-10-04 17:34:48 -0400] [443618] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443618] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443618] [INFO] Finished server process [443618]
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443600) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443618) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443599) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443596] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443596] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443596] [INFO] Finished server process [443596]
+[2024-10-04 17:34:48 -0400] [443604] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443604] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443604] [INFO] Finished server process [443604]
+[2024-10-04 17:34:48 -0400] [443616] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443619] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443619] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443616] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443619] [INFO] Finished server process [443619]
+[2024-10-04 17:34:48 -0400] [443616] [INFO] Finished server process [443616]
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443596) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443604) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443603] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443603] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443603] [INFO] Finished server process [443603]
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443619) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443616) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443605] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443605] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443605] [INFO] Finished server process [443605]
+[2024-10-04 17:34:48 -0400] [443597] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443598] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443597] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443598] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443597] [INFO] Finished server process [443597]
+[2024-10-04 17:34:48 -0400] [443601] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443602] [INFO] Waiting for application shutdown.
+[2024-10-04 17:34:48 -0400] [443598] [INFO] Finished server process [443598]
+[2024-10-04 17:34:48 -0400] [443602] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443601] [INFO] Application shutdown complete.
+[2024-10-04 17:34:48 -0400] [443602] [INFO] Finished server process [443602]
+[2024-10-04 17:34:48 -0400] [443601] [INFO] Finished server process [443601]
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443603) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443605) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443597) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443598) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443592] [ERROR] Worker (pid:443602) was sent SIGTERM!
+[2024-10-04 17:34:48 -0400] [443592] [INFO] Shutting down: Master
+[2024-10-04 17:34:48 -0400] [444210] [INFO] Starting gunicorn 23.0.0
+[2024-10-04 17:34:48 -0400] [444210] [INFO] Listening at: http://192.168.0.200:5000 (444210)
+[2024-10-04 17:34:48 -0400] [444210] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-10-04 17:34:48 -0400] [444214] [INFO] Booting worker with pid: 444214
+[2024-10-04 17:34:48 -0400] [444215] [INFO] Booting worker with pid: 444215
+[2024-10-04 17:34:48 -0400] [444216] [INFO] Booting worker with pid: 444216
+[2024-10-04 17:34:48 -0400] [444217] [INFO] Booting worker with pid: 444217
+[2024-10-04 17:34:48 -0400] [444218] [INFO] Booting worker with pid: 444218
+[2024-10-04 17:34:48 -0400] [444219] [INFO] Booting worker with pid: 444219
+[2024-10-04 17:34:48 -0400] [444220] [INFO] Booting worker with pid: 444220
+[2024-10-04 17:34:48 -0400] [444221] [INFO] Booting worker with pid: 444221
+[2024-10-04 17:34:48 -0400] [444222] [INFO] Booting worker with pid: 444222
+[2024-10-04 17:34:48 -0400] [444223] [INFO] Booting worker with pid: 444223
+[2024-10-04 17:34:49 -0400] [444228] [INFO] Booting worker with pid: 444228
+[2024-10-04 17:34:49 -0400] [444234] [INFO] Booting worker with pid: 444234
+[2024-10-04 17:34:49 -0400] [444235] [INFO] Booting worker with pid: 444235
+[2024-10-04 17:34:49 -0400] [444236] [INFO] Booting worker with pid: 444236
+[2024-10-04 17:34:49 -0400] [444237] [INFO] Booting worker with pid: 444237
+[2024-10-04 17:34:52 -0400] [444217] [INFO] Started server process [444217]
+[2024-10-04 17:34:52 -0400] [444217] [INFO] Waiting for application startup.
+[2024-10-04 17:34:52 -0400] [444217] [INFO] Application startup complete.
+[2024-10-04 17:34:52 -0400] [444214] [INFO] Started server process [444214]
+[2024-10-04 17:34:52 -0400] [444214] [INFO] Waiting for application startup.
+[2024-10-04 17:34:52 -0400] [444214] [INFO] Application startup complete.
+[2024-10-04 17:34:52 -0400] [444215] [INFO] Started server process [444215]
+[2024-10-04 17:34:52 -0400] [444215] [INFO] Waiting for application startup.
+[2024-10-04 17:34:52 -0400] [444215] [INFO] Application startup complete.
+[2024-10-04 17:34:52 -0400] [444216] [INFO] Started server process [444216]
+[2024-10-04 17:34:52 -0400] [444216] [INFO] Waiting for application startup.
+[2024-10-04 17:34:52 -0400] [444216] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444220] [INFO] Started server process [444220]
+[2024-10-04 17:34:53 -0400] [444220] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444220] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444221] [INFO] Started server process [444221]
+[2024-10-04 17:34:53 -0400] [444221] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444221] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444218] [INFO] Started server process [444218]
+[2024-10-04 17:34:53 -0400] [444218] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444218] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444219] [INFO] Started server process [444219]
+[2024-10-04 17:34:53 -0400] [444219] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444219] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444222] [INFO] Started server process [444222]
+[2024-10-04 17:34:53 -0400] [444222] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444222] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444237] [INFO] Started server process [444237]
+[2024-10-04 17:34:53 -0400] [444237] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444237] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444234] [INFO] Started server process [444234]
+[2024-10-04 17:34:53 -0400] [444234] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444234] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444235] [INFO] Started server process [444235]
+[2024-10-04 17:34:53 -0400] [444235] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444235] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444228] [INFO] Started server process [444228]
+[2024-10-04 17:34:53 -0400] [444228] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444228] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444223] [INFO] Started server process [444223]
+[2024-10-04 17:34:53 -0400] [444223] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444223] [INFO] Application startup complete.
+[2024-10-04 17:34:53 -0400] [444236] [INFO] Started server process [444236]
+[2024-10-04 17:34:53 -0400] [444236] [INFO] Waiting for application startup.
+[2024-10-04 17:34:53 -0400] [444236] [INFO] Application startup complete.
+[2024-10-04 17:59:36 -0400] [444210] [INFO] Handling signal: term
+[2024-10-04 17:59:36 -0400] [444215] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444217] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444214] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444216] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444220] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444223] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444221] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444218] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444236] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444219] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444222] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444228] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444234] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444237] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444235] [INFO] Shutting down
+[2024-10-04 17:59:36 -0400] [444215] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444223] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444222] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444234] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444228] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444237] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444219] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444215] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444223] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444215] [INFO] Finished server process [444215]
+[2024-10-04 17:59:36 -0400] [444217] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444236] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444221] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444220] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444216] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444218] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444236] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444217] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444236] [INFO] Finished server process [444236]
+[2024-10-04 17:59:36 -0400] [444221] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444220] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444217] [INFO] Finished server process [444217]
+[2024-10-04 17:59:36 -0400] [444216] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444218] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444221] [INFO] Finished server process [444221]
+[2024-10-04 17:59:36 -0400] [444218] [INFO] Finished server process [444218]
+[2024-10-04 17:59:36 -0400] [444220] [INFO] Finished server process [444220]
+[2024-10-04 17:59:36 -0400] [444214] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444216] [INFO] Finished server process [444216]
+[2024-10-04 17:59:36 -0400] [444223] [INFO] Finished server process [444223]
+[2024-10-04 17:59:36 -0400] [444222] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444234] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444222] [INFO] Finished server process [444222]
+[2024-10-04 17:59:36 -0400] [444234] [INFO] Finished server process [444234]
+[2024-10-04 17:59:36 -0400] [444228] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444228] [INFO] Finished server process [444228]
+[2024-10-04 17:59:36 -0400] [444214] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444237] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444237] [INFO] Finished server process [444237]
+[2024-10-04 17:59:36 -0400] [444219] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444219] [INFO] Finished server process [444219]
+[2024-10-04 17:59:36 -0400] [444235] [INFO] Waiting for application shutdown.
+[2024-10-04 17:59:36 -0400] [444235] [INFO] Application shutdown complete.
+[2024-10-04 17:59:36 -0400] [444235] [INFO] Finished server process [444235]
+[2024-10-04 17:59:36 -0400] [444214] [INFO] Finished server process [444214]
+[2024-10-04 17:59:36 -0400] [444210] [ERROR] Worker (pid:444215) was sent SIGTERM!
+[2024-10-04 17:59:36 -0400] [444210] [ERROR] Worker (pid:444216) was sent SIGTERM!
+[2024-10-04 17:59:36 -0400] [444210] [ERROR] Worker (pid:444222) was sent SIGTERM!
+[2024-10-04 17:59:36 -0400] [444210] [ERROR] Worker (pid:444236) was sent SIGTERM!
+[2024-10-04 17:59:36 -0400] [444210] [ERROR] Worker (pid:444219) was sent SIGTERM!
+[2024-10-04 17:59:37 -0400] [444210] [ERROR] Worker (pid:444228) was sent SIGTERM!
+[2024-10-04 17:59:37 -0400] [444210] [ERROR] Worker (pid:444234) was sent SIGTERM!
+[2024-10-04 17:59:37 -0400] [444210] [INFO] Shutting down: Master
+[2024-10-04 17:59:37 -0400] [446144] [INFO] Starting gunicorn 23.0.0
+[2024-10-04 17:59:37 -0400] [446144] [INFO] Listening at: http://192.168.0.200:5000 (446144)
+[2024-10-04 17:59:37 -0400] [446144] [INFO] Using worker: uvicorn.workers.UvicornWorker
+[2024-10-04 17:59:37 -0400] [446148] [INFO] Booting worker with pid: 446148
+[2024-10-04 17:59:37 -0400] [446149] [INFO] Booting worker with pid: 446149
+[2024-10-04 17:59:37 -0400] [446150] [INFO] Booting worker with pid: 446150
+[2024-10-04 17:59:37 -0400] [446151] [INFO] Booting worker with pid: 446151
+[2024-10-04 17:59:37 -0400] [446152] [INFO] Booting worker with pid: 446152
+[2024-10-04 17:59:37 -0400] [446153] [INFO] Booting worker with pid: 446153
+[2024-10-04 17:59:37 -0400] [446154] [INFO] Booting worker with pid: 446154
+[2024-10-04 17:59:37 -0400] [446155] [INFO] Booting worker with pid: 446155
+[2024-10-04 17:59:37 -0400] [446156] [INFO] Booting worker with pid: 446156
+[2024-10-04 17:59:37 -0400] [446157] [INFO] Booting worker with pid: 446157
+[2024-10-04 17:59:37 -0400] [446158] [INFO] Booting worker with pid: 446158
+[2024-10-04 17:59:37 -0400] [446160] [INFO] Booting worker with pid: 446160
+[2024-10-04 17:59:37 -0400] [446161] [INFO] Booting worker with pid: 446161
+[2024-10-04 17:59:37 -0400] [446171] [INFO] Booting worker with pid: 446171
+[2024-10-04 17:59:37 -0400] [446172] [INFO] Booting worker with pid: 446172
+[2024-10-04 17:59:41 -0400] [446151] [INFO] Started server process [446151]
+[2024-10-04 17:59:41 -0400] [446151] [INFO] Waiting for application startup.
+[2024-10-04 17:59:41 -0400] [446151] [INFO] Application startup complete.
+[2024-10-04 17:59:41 -0400] [446149] [INFO] Started server process [446149]
+[2024-10-04 17:59:41 -0400] [446149] [INFO] Waiting for application startup.
+[2024-10-04 17:59:41 -0400] [446149] [INFO] Application startup complete.
+[2024-10-04 17:59:41 -0400] [446148] [INFO] Started server process [446148]
+[2024-10-04 17:59:41 -0400] [446148] [INFO] Waiting for application startup.
+[2024-10-04 17:59:41 -0400] [446148] [INFO] Application startup complete.
+[2024-10-04 17:59:41 -0400] [446154] [INFO] Started server process [446154]
+[2024-10-04 17:59:41 -0400] [446154] [INFO] Waiting for application startup.
+[2024-10-04 17:59:41 -0400] [446154] [INFO] Application startup complete.
+[2024-10-04 17:59:41 -0400] [446150] [INFO] Started server process [446150]
+[2024-10-04 17:59:41 -0400] [446150] [INFO] Waiting for application startup.
+[2024-10-04 17:59:41 -0400] [446150] [INFO] Application startup complete.
+[2024-10-04 17:59:41 -0400] [446160] [INFO] Started server process [446160]
+[2024-10-04 17:59:41 -0400] [446160] [INFO] Waiting for application startup.
+[2024-10-04 17:59:41 -0400] [446160] [INFO] Application startup complete.
+[2024-10-04 17:59:41 -0400] [446152] [INFO] Started server process [446152]
+[2024-10-04 17:59:41 -0400] [446152] [INFO] Waiting for application startup.
+[2024-10-04 17:59:41 -0400] [446152] [INFO] Application startup complete.
+[2024-10-04 17:59:42 -0400] [446155] [INFO] Started server process [446155]
+[2024-10-04 17:59:42 -0400] [446155] [INFO] Waiting for application startup.
+[2024-10-04 17:59:42 -0400] [446155] [INFO] Application startup complete.
+[2024-10-04 17:59:42 -0400] [446158] [INFO] Started server process [446158]
+[2024-10-04 17:59:42 -0400] [446158] [INFO] Waiting for application startup.
+[2024-10-04 17:59:42 -0400] [446158] [INFO] Application startup complete.
+[2024-10-04 17:59:42 -0400] [446153] [INFO] Started server process [446153]
+[2024-10-04 17:59:42 -0400] [446153] [INFO] Waiting for application startup.
+[2024-10-04 17:59:42 -0400] [446153] [INFO] Application startup complete.
+[2024-10-04 17:59:42 -0400] [446171] [INFO] Started server process [446171]
+[2024-10-04 17:59:42 -0400] [446171] [INFO] Waiting for application startup.
+[2024-10-04 17:59:42 -0400] [446171] [INFO] Application startup complete.
+[2024-10-04 17:59:42 -0400] [446172] [INFO] Started server process [446172]
+[2024-10-04 17:59:42 -0400] [446172] [INFO] Waiting for application startup.
+[2024-10-04 17:59:42 -0400] [446172] [INFO] Application startup complete.
+[2024-10-04 17:59:42 -0400] [446156] [INFO] Started server process [446156]
+[2024-10-04 17:59:42 -0400] [446156] [INFO] Waiting for application startup.
+[2024-10-04 17:59:42 -0400] [446156] [INFO] Application startup complete.
+[2024-10-04 17:59:42 -0400] [446161] [INFO] Started server process [446161]
+[2024-10-04 17:59:42 -0400] [446161] [INFO] Waiting for application startup.
+[2024-10-04 17:59:42 -0400] [446161] [INFO] Application startup complete.
+[2024-10-04 17:59:42 -0400] [446157] [INFO] Started server process [446157]
+[2024-10-04 17:59:42 -0400] [446157] [INFO] Waiting for application startup.
+[2024-10-04 17:59:42 -0400] [446157] [INFO] Application startup complete.

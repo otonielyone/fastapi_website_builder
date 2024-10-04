@@ -18,59 +18,76 @@
 <div class="container mx-auto p-4 bg-gradient-to-r from-blue-100 to-blue-200 min-h-screen">
     <h1 class="text-4xl font-bold text-center text-gray-800 mb-8">Google Analytics Dashboard</h1>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div class="card">
-            <h2 class="text-2xl font-semibold">Total Users</h2>
-            <p class="text-3xl font-bold">{{ total_users }}</p>
-        </div>
-        <div class="card">
-            <h2 class="text-2xl font-semibold">Sessions</h2>
-            <p class="text-3xl font-bold">{{ sessions }}</p>
-        </div>
-        <div class="card">
-            <h2 class="text-2xl font-semibold">Bounce Rate</h2>
-            <p class="text-3xl font-bold">{{ bounce_rate }}%</p>
-        </div>
-        <div class="card">
-            <h2 class="text-2xl font-semibold">Average Session Duration</h2>
-            <p class="text-3xl font-bold">{{ avg_session_duration }} seconds</p>
-        </div>
-        <div class="card">
-            <h2 class="text-2xl font-semibold">New Users</h2>
-            <p class="text-3xl font-bold">{{ new_users }}</p>
-        </div>
-        <div class="card">
-            <h2 class="text-2xl font-semibold">Conversions</h2>
-            <p class="text-3xl font-bold">{{ conversions }}</p>
-        </div>
-
-        <div class="card">
-          <h2 class="text-2xl font-semibold">Real-Time User Data (Last 30 Minutes)</h2>
-          <table>
-              <tr>
-                  <th>Page Title</th>
-                  <th>Page Path</th>
-                  <th>Active Users</th>
-              </tr>
-              {% if real_time_users and real_time_users|length > 0 %}
-                  {% for user in real_time_users %}
-                  <tr>
-                      <td>{{ user.page_title }}</td>
-                      <td>{{ user.page_path }}</td>
-                      <td>{{ user.active_users }}</td>
-                  </tr>
-                  {% endfor %}
-              {% else %}
-                  <tr>
-                      <td colspan="3" style="text-align:center;">No data available</td>
-                  </tr>
-              {% endif %}
-          </table>
-      </div>
-      
-      
-
-        <!-- Add more metrics as needed -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="analytics-data-container">
+        <!-- Dynamic data will be injected here -->
     </div>
 </div>
+
+<script>
+    // Fetch the full list of analytics data from the API
+    async function fetchAnalyticsData() {
+        try {
+            const response = await fetch('/api/view_analytics_database');
+            const data = await response.json();
+
+            if (data.analytics && Array.isArray(data.analytics)) {
+                displayAnalyticsData(data.analytics);
+            } else {
+                console.error('Invalid data format:', data);
+            }
+        } catch (error) {
+            console.error('Error fetching analytics data:', error);
+        }
+    }
+
+    function displayAnalyticsData(analyticsData) {
+        const container = document.getElementById('analytics-data-container');
+        container.innerHTML = ''; // Clear existing content
+
+        analyticsData.forEach(item => {
+            const card = `
+                <div class="card p-4 bg-white shadow rounded">
+                    <h2 class="text-xl font-semibold">Date</h2>
+                    <p>${item.DATE}</p>
+                    <h2 class="text-xl font-semibold">Sessions</h2>
+                    <p>${item.SESSIONS}</p>
+                    <h2 class="text-xl font-semibold">New Users</h2>
+                    <p>${item.NEW_USERS}</p>
+                    <h2 class="text-xl font-semibold">Active Users</h2>
+                    <p>${item.ACTIVE_USERS}</p>
+                    <h2 class="text-xl font-semibold">Average Session Duration</h2>
+                    <p>${item.AVERAGE_SESSION_DURATION.toFixed(2)} seconds</p>
+                    <h2 class="text-xl font-semibold">Bounce Rate</h2>
+                    <p>${(item.BOUNCE_RATE * 100).toFixed(2)}%</p>
+                    <h2 class="text-xl font-semibold">Screen Page Views Per Session</h2>
+                    <p>${item.SCREEN_PAGE_VIEWS_PER_SESSION.toFixed(2)}</p>
+                    <h2 class="text-xl font-semibold">Scrolled Users</h2>
+                    <p>${item.SCROLLED_USERS}</p>
+                    <h2 class="text-xl font-semibold">User Engagement Time</h2>
+                    <p>${item.USER_ENGAGEMENT_TIME} seconds</p>
+                    <h2 class="text-xl font-semibold">Browser</h2>
+                    <p>${item.BROWSER}</p>
+                    <h2 class="text-xl font-semibold">City</h2>
+                    <p>${item.CITY}</p>
+                    <h2 class="text-xl font-semibold">Country</h2>
+                    <p>${item.COUNTRY}</p>
+                    <h2 class="text-xl font-semibold">Host Name</h2>
+                    <p>${item.HOST_NAME}</p>
+                    <h2 class="text-xl font-semibold">Language</h2>
+                    <p>${item.LANGUAGE}</p>
+                    <h2 class="text-xl font-semibold">Operating System</h2>
+                    <p>${item.OPERATING_SYSTEM}</p>
+                    <h2 class="text-xl font-semibold">Platform</h2>
+                    <p>${item.PLATFORM}</p>
+                    <h2 class="text-xl font-semibold">Region</h2>
+                    <p>${item.REGION}</p>
+                </div>
+            `;
+            container.innerHTML += card; // Append card to the container
+        });
+    }
+
+    // Fetch analytics data on page load
+    document.addEventListener('DOMContentLoaded', fetchAnalyticsData);
+</script>
 {% endblock %}
