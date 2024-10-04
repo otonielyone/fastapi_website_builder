@@ -1,6 +1,8 @@
+from google.analytics.data import BetaAnalyticsDataClient
 from start_files.config import get_templates
 from start_files.routes.routes import router
 from fastapi.staticfiles import StaticFiles
+from google.oauth2 import service_account
 from fastapi import FastAPI
 import logging
 
@@ -13,7 +15,7 @@ def create_app() -> FastAPI:
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
         handlers=[
             logging.StreamHandler(),
-            logging.FileHandler("/var/www/html/fastapi_project/logs/yonehomes.log")
+            logging.FileHandler("logs/yonehomes.log")
         ]
     )
     

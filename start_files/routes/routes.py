@@ -1,12 +1,23 @@
+import random
 import shutil
-
+import sqlite3
+import time
 import httpx
+from google.analytics.data_v1beta import BetaAnalyticsDataClient
+from google.analytics.data_v1beta.types import DateRange, Metric, Dimension, OrderBy, RunReportRequest
+from google.oauth2 import service_account
+from google.analytics.data import BetaAnalyticsDataClient
+from google.oauth2 import service_account
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
 from start_files.models.mls.rentals_db_section import get_rentals_from_db
 from start_files.models.mls.homes_db_section import get_homes_from_db
 from start_files.routes.rentals_scripts import sorted_rentals_by_price, start_rentals
 from start_files.routes.homes_scripts import sorted_homes_by_price, start_homes
 from fastapi import APIRouter, Form, Path, Request, HTTPException, BackgroundTasks
-from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse, StreamingResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse, StreamingResponse
+from google.analytics.data import BetaAnalyticsDataClient
+from google.oauth2 import service_account
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail
 from dotenv import load_dotenv
@@ -17,7 +28,6 @@ import logging
 import httpx
 import os
 
-
 router = APIRouter()
 
 load_dotenv()
@@ -26,6 +36,7 @@ RECIPIENT = os.getenv("RECIPIENT")
 SENDER = os.getenv("SENDER")
 MAILJET_API = os.getenv("MAILJET_API")
 MAILJET_SECRET = os.getenv("MAILJET_SECRET")
+GA_VIEW_ID = os.getenv("GA_VIEW_ID")
 
 
 # Set up logger
@@ -38,78 +49,155 @@ console_handler.setFormatter(formatter)
 logger.addHandler(console_handler)
 
 
-
-
-# Function to log analytics
-def log_analytics(data):
-    conn = sqlite3.connect("brightscrape/brightmls.db")
-    cursor = conn.cursor()
-    query = """
-    INSERT INTO analytics (ip_address, user_agent, device_type, os, browser, screen_resolution, 
-                           time_zone, language, path, referrer, entry_page, exit_page, session_duration, 
-                           page_views, click_events, bounce_rate, load_time, session_start, session_end)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    """
-    cursor.execute(query, tuple(data.values()))
-    conn.commit()
-    conn.close()
-
-@router.get("/analytics")
-async def analytics(request: Request):
-    start_time = time.time()
-    
-    # Capture visitor data
-    ip_address = request.client.host
-    user_agent = request.headers.get('user-agent', 'unknown')
-    referrer = request.headers.get('referer', 'unknown')
-    path = request.url.path
-    entry_page = path
-    
-    # Other analytics data
-    device_type = "mobile" if "Mobile" in user_agent else "desktop"
-    os = "unknown"
-    browser = "unknown"
-    
-    # Call the logic for your route here...
-    
-    # End session and calculate session duration
-    session_duration = time.time() - start_time
-    
-    # Prepare data for logging
-    data = {
-        'ip_address': ip_address,
-        'user_agent': user_agent,
-        'device_type': device_type,
-        'os': os,
-        'browser': browser,
-        'screen_resolution': 'unknown',
-        'time_zone': 'unknown',
-        'language': 'unknown',
-        'path': path,
-        'referrer': referrer,
-        'entry_page': entry_page,
-        'exit_page': path,
-        'session_duration': session_duration,
-        'page_views': 1,
-        'click_events': None,
-        'bounce_rate': 0,
-        'load_time': session_duration,
-        'session_start': time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(start_time)),
-        'session_end': time.strftime('%Y-%m-%d %H:%M:%S')
-    }
-    
-    # Log analytics
-    log_analytics(data)
-
-    return {"message": "Analytics logged successfully."}
-
-
+# Home route
 @router.get("/", response_class=HTMLResponse, name="home")
 async def read_root(request: Request):
     logger.info("Rendering home page")
     templates = request.app.state.templates
     return templates.TemplateResponse("home.html", {"request": request})
 
+
+@router.get("/dashboard", response_class=HTMLResponse)
+async def dashboard(request: Request):
+# Load Google Analytics credentials
+    credentials = service_account.Credentials.from_service_account_file('services/yonehomes-50e3014c6fd5.json')
+    client = BetaAnalyticsDataClient(credentials=credentials)
+    property_id = '461503351'
+    templates = request.app.state.templates
+    
+    # Fetch analytics data
+    total_users = fetch_total_users(client,property_id)  
+    sessions =  fetch_sessions(client,property_id)
+    bounce_rate =  fetch_bounce_rate(client,property_id)
+    avg_session_duration =  fetch_avg_session_duration(client,property_id)
+    new_users =  fetch_new_users(client,property_id)
+    conversions =  fetch_conversions(client,property_id)
+    real_time_users = fetch_real_time_users(client, property_id)
+
+    return templates.TemplateResponse("dashboard.html", {
+        "request": request,
+        "total_users": total_users,
+        "sessions": sessions,
+        "bounce_rate": bounce_rate,
+        "avg_session_duration": avg_session_duration,
+        "new_users": new_users,
+        "conversions": conversions,
+        "real_time_users": real_time_users,
+    })
+
+def fetch_total_users(client,property_id):
+    request = {
+        'property': f"properties/{property_id}",
+        'date_ranges': [{'start_date': '2023-01-01', 'end_date': '2023-01-31'}],
+        'dimensions': [{'name': 'city'}],
+        'metrics': [{'name': 'activeUsers'}],
+    }
+    response = client.run_report(request)  # No await here
+    
+    if not response.rows:
+        return 0  # Default value if no data
+
+    return int(response.rows[0].metric_values[0].value)
+
+
+def fetch_sessions(client,property_id):
+    request = {
+        'property': f'properties/{property_id}',
+        'date_ranges': [{"start_date": "30daysAgo", "end_date": "today"}],
+        'metrics': [{"name": "sessions"}]
+    }
+    response = client.run_report(request)  # No await
+    
+    if not response.rows:
+        return 0  # Default value if no data
+    
+    return int(response.rows[0].metric_values[0].value)
+
+def fetch_bounce_rate(client,property_id):
+    request = {
+        'property': f'properties/{property_id}',
+        'date_ranges': [{"start_date": "30daysAgo", "end_date": "today"}],
+        'metrics': [{"name": "bounceRate"}]
+    }
+    response = client.run_report(request)  # No await
+    
+    if not response.rows:
+        return 0.0  # Default value if no data
+    
+    return float(response.rows[0].metric_values[0].value)
+
+def fetch_avg_session_duration(client,property_id):
+    request = {
+        'property': f'properties/{property_id}',
+        'date_ranges': [{"start_date": "30daysAgo", "end_date": "today"}],
+        'metrics': [{"name": "averageSessionDuration"}]
+    }
+    response = client.run_report(request)  # No await
+    
+    if not response.rows:
+        return 0.0  # Default value if no data
+    
+    return float(response.rows[0].metric_values[0].value)
+
+def fetch_new_users(client,property_id):
+    request = {
+        'property': f'properties/{property_id}',
+        'date_ranges': [{"start_date": "30daysAgo", "end_date": "today"}],
+        'metrics': [{"name": "newUsers"}]
+    }
+    response = client.run_report(request)  # No await
+    
+    if not response.rows:
+        return 0  # Default value if no data
+    
+    return int(response.rows[0].metric_values[0].value)
+
+
+def fetch_conversions(client,property_id):
+    request = {
+        'property': f'properties/{property_id}',
+        'date_ranges': [{"start_date": "30daysAgo", "end_date": "today"}],
+        'metrics': [{"name": "conversions"}]
+    }
+    response = client.run_report(request)  # No await
+    
+    if not response.rows:
+        return 0  # Default value if no data
+    
+    return int(response.rows[0].metric_values[0].value)
+
+
+def fetch_real_time_users(client, property_id):
+    # Define the request parameters
+    request = RunReportRequest(
+        property=f'properties/{property_id}',
+        date_ranges=[DateRange(start_date="today", end_date="today")],  # Adjust as necessary
+        metrics=[Metric(name="activeUsers")],
+        dimensions=[Dimension(name="pageTitle"), Dimension(name="pagePath")],
+        order_bys=[OrderBy(metric=OrderBy.MetricOrderBy(metric_name="activeUsers"))]
+    )
+
+    try:
+        response = client.run_report(request)  # Send the request to the API
+        print("Response received:", response)  # Debugging line
+
+        result = []
+        if response.rows:  # Check if there are rows in the response
+            for row in response.rows:
+                result.append({
+                    "page_title": row.dimension_values[0].value,
+                    "page_path": row.dimension_values[1].value,
+                    "active_users": int(row.metric_values[0].value)
+                })
+        else:
+            print("No data returned for the specified date range and metrics.")  # Debugging line
+
+        return result  # Return the results
+
+    except Exception as e:
+        print("Error fetching data:", e)  # Error handling
+        return []
+    
 @router.get("/rentals", response_class=HTMLResponse, name="rentals")
 async def rentals(request: Request):
     logger.info("Rendering rentals page")
@@ -127,12 +215,6 @@ async def resources(request: Request):
     logger.info("Rendering resources page")
     templates = request.app.state.templates
     return templates.TemplateResponse("resources.html", {"request": request})
-
-@router.get("/dashboard", response_class=HTMLResponse, name="resources")
-async def dashboard(request: Request):
-    logger.info("Rendering dashboard page")
-    templates = request.app.state.templates
-    return templates.TemplateResponse("dashboard.html", {"request": request})
 
 @router.get("/contact", response_class=HTMLResponse, name="contact")
 async def contact(request: Request):
