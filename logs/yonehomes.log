@@ -1,18 +1,7 @@
-2024-10-04 17:08:08,430 - start_files.routes.routes - ERROR - Error calculating dashboard data: type object 'datetime.datetime' has no attribute 'timedelta'
-2024-10-04 17:08:08,431 - start_files.routes.routes - ERROR - Unexpected error in dashboard route: 500: Error calculating dashboard data
-2024-10-04 17:13:58,994 - start_files.routes.routes - ERROR - Error calculating dashboard data: type object 'datetime.datetime' has no attribute 'timedelta'
-2024-10-04 17:18:30,455 - start_files.routes.routes - INFO - Rendering home page
-2024-10-04 17:18:36,286 - start_files.routes.routes - INFO - Rendering home page
-2024-10-04 17:31:10,721 - start_files.routes.routes - ERROR - Unexpected error in dashboard route: 'data' is undefined
-2024-10-04 17:34:52,660 - start_files.routes.routes - ERROR - Unexpected error in dashboard route: 'item' is undefined
-2024-10-04 17:58:03,453 - start_files.routes.routes - INFO - Rendering home page
-2024-10-04 17:58:03,814 - start_files.routes.routes - INFO - Rendering home page
-2024-10-04 18:10:05,787 - start_files.routes.routes - INFO - Rendering home page
-2024-10-04 18:23:19,791 - start_files.routes.routes - INFO - Rendering contact page
-2024-10-04 18:23:21,007 - start_files.routes.routes - INFO - Rendering contact page
-2024-10-04 18:23:22,189 - start_files.routes.routes - INFO - Rendering contact page
-2024-10-04 18:23:23,602 - start_files.routes.routes - INFO - Rendering contact page
-2024-10-04 18:23:24,896 - start_files.routes.routes - INFO - Rendering contact page
-2024-10-04 18:30:55,880 - start_files.routes.routes - INFO - Rendering home page
-2024-10-04 18:43:09,275 - start_files.routes.routes - INFO - Rendering home page
-2024-10-04 19:04:52,355 - start_files.routes.routes - INFO - Rendering home page
+2024-10-05 05:35:03,421 - start_files.routes.routes - INFO - Starting MLS rentals gathering task
+2024-10-05 05:35:03,431 - start_files.routes.rentals_scripts - INFO - Start Time: 2024-10-05 05:35:03
+2024-10-05 05:35:03,432 - start_files.routes.export_rentals_scripts - INFO - Starting export_rentals function
+2024-10-05 05:35:03,432 - start_files.routes.export_rentals_scripts - INFO - Setting up async driver
+2024-10-05 05:35:03,997 - start_files.routes.export_rentals_scripts - INFO - Chrome options setup complete
+2024-10-05 05:35:03,997 - start_files.routes.export_rentals_scripts - INFO - About to Begin Login
+2024-10-05 05:35:06,446 - start_files.routes.export_rentals_scripts - INFO - Navigating to search page
